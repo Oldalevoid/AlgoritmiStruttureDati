@@ -252,7 +252,7 @@ Il push dell'esercizio e l'aggiornamento del README fanno parte della stessa fas
 
 ## Punto attuale del percorso
 
-**Ultimo esercizio completato: `01_fondamenti_algoritmi/esercizio_03.md`**
+**Ultimo esercizio completato: `01_fondamenti_algoritmi/esercizio_04.md`**
 
 Argomento corrente:
 
@@ -268,17 +268,19 @@ Concetti acquisiti finora:
 - proprietà fondamentali di un algoritmo: finito, eseguibile, non ambiguo, generale, deterministico e completo;
 - riconoscimento della proprietà violata in esempi concreti;
 - riconoscimento degli schemi di sequenza, selezione e iterazione;
-- comprensione del fatto che più schemi possono essere combinati e annidati nello stesso algoritmo.
+- comprensione del fatto che più schemi possono essere combinati e annidati nello stesso algoritmo;
+- scrittura autonoma di un algoritmo che combina sequenza, selezione e iterazione;
+- descrizione esplicita di un ciclo con un numero definito di ripetizioni.
 
 Concetti da consolidare nei prossimi esercizi:
 
 - distinzione rapida tra le diverse proprietà formali di un algoritmo;
-- scrittura autonoma di algoritmi che combinano sequenza, selezione e iterazione;
+- precisione formale nella descrizione di input, output e istruzioni;
 - rappresentazione tramite pseudocodice e flowchart.
 
 Prossimo esercizio da proporre:
 
-**Esercizio 04 — Scrivere un algoritmo completo combinando sequenza, selezione e iterazione.**
+**Esercizio 05 — Tradurre un algoritmo informale in pseudocodice.**
 
 Cartella corrente:
 
