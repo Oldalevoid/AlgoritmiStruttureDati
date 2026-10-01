@@ -2,7 +2,15 @@
 
 Questa repository raccoglie un percorso di esercizi progressivi per preparare l'esame di **Algoritmi e Strutture Dati**.
 
-Il percorso è costruito sulle dispense del corso Pegaso fornite dallo studente. Le dispense originali **non vengono caricate nella repository**: sono materiale didattico personale e restano esterne a GitHub. La repository contiene soltanto esercizi, soluzioni sviluppate dallo studente, pseudocodice, implementazioni, analisi della complessità e note di apprendimento.
+La repository è progettata per essere **completamente autosufficiente**: qualsiasi modello AI deve poter aprirla e continuare il percorso senza avere accesso alle dispense originali, a chat precedenti o a memoria esterna.
+
+Documenti fondamentali:
+
+- [PROGRAMMA_CORSO.md](PROGRAMMA_CORSO.md) — curriculum dettagliato e perimetro degli argomenti;
+- [GUIDA_AI.md](GUIDA_AI.md) — regole operative per continuare il percorso;
+- questo `README.md` — stato vivo dello studente, progressi e prossimo esercizio.
+
+Le dispense originali non sono necessarie per continuare gli esercizi.
 
 ## Obiettivo
 
@@ -34,7 +42,9 @@ L'AI che utilizza questa repository come contesto deve:
 7. usare **Python** come linguaggio principale per le implementazioni quando il linguaggio non è parte dell'oggetto dell'esercizio;
 8. usare **C/C++** quando l'argomento del corso richiede esplicitamente aspetti come memoria, puntatori o una specifica implementazione;
 9. non sostituire con Python un esercizio che richiede esplicitamente pseudocodice;
-10. mantenere la terminologia e l'impostazione delle dispense del corso, evitando di introdurre materiale esterno come se facesse parte del programma.
+10. mantenere terminologia, perimetro e progressione definiti in `PROGRAMMA_CORSO.md`;
+11. leggere e rispettare `GUIDA_AI.md`;
+12. non chiedere le dispense originali per poter proseguire il percorso.
 
 ## Tipi di esercizio
 
@@ -286,6 +296,22 @@ Cartella corrente:
 
 `01_fondamenti_algoritmi/`
 
+## Autosufficienza della repository
+
+Una nuova AI deve poter capire, usando soltanto questa repository:
+
+- il programma specifico dell'esame;
+- l'ordine degli argomenti;
+- il livello di profondità atteso;
+- il metodo con cui proporre gli esercizi;
+- cosa è già stato studiato;
+- cosa è ancora da consolidare;
+- quale esercizio proporre dopo.
+
+Il curriculum stabile è in `PROGRAMMA_CORSO.md`.  
+Le regole operative sono in `GUIDA_AI.md`.  
+Questo README contiene lo stato aggiornato del percorso.
+
 ## Principio guida
 
-La repository deve diventare una traccia leggibile del percorso di apprendimento: qualsiasi AI che la analizzi deve poter capire **cosa è stato studiato, cosa è stato realmente esercitato, quali difficoltà sono emerse e da quale punto deve continuare**.
+La repository è la memoria didattica permanente del percorso: qualsiasi AI che la analizzi deve poter capire **cosa è stato studiato, cosa è stato realmente esercitato, quali difficoltà sono emerse e da quale punto deve continuare**, senza richiedere le dispense originali.
