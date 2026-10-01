@@ -252,7 +252,7 @@ Il push dell'esercizio e l'aggiornamento del README fanno parte della stessa fas
 
 ## Punto attuale del percorso
 
-**Ultimo esercizio completato: `01_fondamenti_algoritmi/esercizio_01.md`**
+**Ultimo esercizio completato: `01_fondamenti_algoritmi/esercizio_02.md`**
 
 Argomento corrente:
 
@@ -264,17 +264,19 @@ Concetti acquisiti finora:
 - algoritmo come sequenza ordinata di istruzioni;
 - necessità di istruzioni non ambigue;
 - completezza dell'algoritmo rispetto ai casi possibili;
-- uso logico di condizioni alternative per distinguere casi diversi.
+- uso logico di condizioni alternative per distinguere casi diversi;
+- proprietà fondamentali di un algoritmo: finito, eseguibile, non ambiguo, generale, deterministico e completo;
+- riconoscimento della proprietà violata in esempi concreti.
 
 Concetti da consolidare nei prossimi esercizi:
 
-- proprietà formali di un algoritmo;
+- distinzione rapida tra le diverse proprietà formali di un algoritmo;
 - sequenza, selezione e iterazione;
 - rappresentazione tramite pseudocodice e flowchart.
 
 Prossimo esercizio da proporre:
 
-**Esercizio 02 — Proprietà di un algoritmo: riconoscere istruzioni ambigue, incomplete o non eseguibili.**
+**Esercizio 03 — Schemi di composizione: riconoscere e usare sequenza, selezione e iterazione.**
 
 Cartella corrente:
 
