@@ -252,13 +252,31 @@ Il push dell'esercizio e l'aggiornamento del README fanno parte della stessa fas
 
 ## Punto attuale del percorso
 
-**Nessun esercizio ancora completato in questa repository.**
+**Ultimo esercizio completato: `01_fondamenti_algoritmi/esercizio_01.md`**
+
+Argomento corrente:
+
+**Fondamenti degli algoritmi**
+
+Concetti acquisiti finora:
+
+- distinzione tra input e output;
+- algoritmo come sequenza ordinata di istruzioni;
+- necessità di istruzioni non ambigue;
+- completezza dell'algoritmo rispetto ai casi possibili;
+- uso logico di condizioni alternative per distinguere casi diversi.
+
+Concetti da consolidare nei prossimi esercizi:
+
+- proprietà formali di un algoritmo;
+- sequenza, selezione e iterazione;
+- rappresentazione tramite pseudocodice e flowchart.
 
 Prossimo esercizio da proporre:
 
-**Esercizio 01 — Fondamenti: riconoscere input, output e passi di un algoritmo semplice.**
+**Esercizio 02 — Proprietà di un algoritmo: riconoscere istruzioni ambigue, incomplete o non eseguibili.**
 
-Cartella iniziale:
+Cartella corrente:
 
 `01_fondamenti_algoritmi/`
 
