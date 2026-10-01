@@ -262,7 +262,7 @@ Il push dell'esercizio e l'aggiornamento del README fanno parte della stessa fas
 
 ## Punto attuale del percorso
 
-**Ultimo esercizio completato: `01_fondamenti_algoritmi/esercizio_04.md`**
+**Ultimo esercizio completato: `01_fondamenti_algoritmi/esercizio_05.md`**
 
 Argomento corrente:
 
@@ -280,17 +280,22 @@ Concetti acquisiti finora:
 - riconoscimento degli schemi di sequenza, selezione e iterazione;
 - comprensione del fatto che più schemi possono essere combinati e annidati nello stesso algoritmo;
 - scrittura autonoma di un algoritmo che combina sequenza, selezione e iterazione;
-- descrizione esplicita di un ciclo con un numero definito di ripetizioni.
+- descrizione esplicita di un ciclo con un numero definito di ripetizioni;
+- traduzione di un algoritmo informale in pseudocodice;
+- uso corretto della struttura `SE / ALTRIMENTI SE / ALTRIMENTI`;
+- distinzione tra richiesta all'utente, lettura dell'input e produzione dell'output;
+- rispetto dell'output richiesto dalla consegna.
 
 Concetti da consolidare nei prossimi esercizi:
 
 - distinzione rapida tra le diverse proprietà formali di un algoritmo;
 - precisione formale nella descrizione di input, output e istruzioni;
-- rappresentazione tramite pseudocodice e flowchart.
+- lettura ed esecuzione mentale di pseudocodice;
+- rappresentazione tramite flowchart.
 
 Prossimo esercizio da proporre:
 
-**Esercizio 05 — Tradurre un algoritmo informale in pseudocodice.**
+**Esercizio 06 — Leggere ed eseguire mentalmente un semplice pseudocodice.**
 
 Cartella corrente:
 
