@@ -262,7 +262,7 @@ Il push dell'esercizio e l'aggiornamento del README fanno parte della stessa fas
 
 ## Punto attuale del percorso
 
-**Ultimo esercizio completato: `01_fondamenti_algoritmi/esercizio_12.md`**
+**Ultimo esercizio completato: `02_complessita/esercizio_01.md`**
 
 Argomento corrente:
 
@@ -289,28 +289,36 @@ Concetti acquisiti nel modulo 01:
 - confronto tra algoritmi diversi che risolvono lo stesso problema;
 - comprensione del principio divide et impera;
 - riconoscimento delle fasi dividere, risolvere e combinare;
-- distinzione tra decomposizione top-down e ricomposizione bottom-up;
-- uso del resto della divisione (`MOD`) in pseudocodice per verificare pari/dispari.
+- distinzione tra decomposizione top-down e ricomposizione bottom-up.
+
+Concetti acquisiti finora nel modulo 02:
+
+- `n` come dimensione dell'input;
+- scelta di un'operazione elementare da contare;
+- significato della funzione di costo `T(n)`;
+- calcolo di un caso concreto, ad esempio `T(5) = 5`;
+- passaggio dal caso concreto alla forma generale `T(n) = n`.
+
+Concetti da acquisire o consolidare nel modulo 02:
+
+- costo temporale e costo spaziale;
+- conteggio di più operazioni elementari;
+- caso migliore, medio e peggiore;
+- notazione asintotica `O`, `Ω` e `Θ`;
+- ordini di crescita;
+- analisi di cicli semplici e cicli annidati;
+- analisi di ricorsioni elementari.
 
 Punti emersi da ricordare:
 
-- l'**istanza** è lo specifico input del problema, non un'operazione effettuata su quell'input;
+- l'istanza è lo specifico input del problema, non un'operazione effettuata su quell'input;
 - nelle condizioni e nei flowchart va mantenuto con precisione il verso dei confronti;
-- nei cicli va rispettato l'ordine tra operazione, aggiornamento della variabile e nuova verifica.
-
-Nuovi concetti da acquisire nel modulo 02:
-
-- dimensione dell'input `n`;
-- operazione elementare;
-- funzione di costo `T(n)`;
-- costo temporale e costo spaziale;
-- caso migliore, medio e peggiore;
-- notazione asintotica;
-- analisi di cicli semplici, cicli annidati e ricorsioni elementari.
+- nei cicli va rispettato l'ordine tra operazione, aggiornamento della variabile e nuova verifica;
+- nella complessità bisogna dichiarare chiaramente quale operazione elementare si sta contando.
 
 Prossimo esercizio da proporre:
 
-**02_complessita/esercizio_01.md — Comprendere dimensione dell'input, operazione elementare e funzione di costo.**
+**02_complessita/esercizio_02.md — Distinguere costo temporale e costo spaziale.**
 
 Cartella corrente:
 
