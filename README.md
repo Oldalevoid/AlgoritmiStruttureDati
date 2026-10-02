@@ -262,7 +262,7 @@ Il push dell'esercizio e l'aggiornamento del README fanno parte della stessa fas
 
 ## Punto attuale del percorso
 
-**Ultimo esercizio completato: `01_fondamenti_algoritmi/esercizio_10.md`**
+**Ultimo esercizio completato: `01_fondamenti_algoritmi/esercizio_11.md`**
 
 Argomento corrente:
 
@@ -300,18 +300,23 @@ Concetti acquisiti finora:
 - corretta sequenza tra stampa, aggiornamento della variabile e nuova verifica;
 - confronto tra due algoritmi che producono lo stesso risultato;
 - distinzione tra confronti diretti annidati e mantenimento di un massimo corrente;
-- comprensione intuitiva del fatto che alcune strategie sono più facilmente generalizzabili di altre.
+- comprensione intuitiva del fatto che alcune strategie sono più facilmente generalizzabili di altre;
+- comprensione del principio divide et impera;
+- riconoscimento delle fasi dividere, risolvere e combinare;
+- distinzione tra decomposizione top-down e ricomposizione bottom-up.
 
 Concetti da consolidare nei prossimi esercizi:
 
 - distinzione rapida tra le diverse proprietà formali di un algoritmo;
 - precisione formale nella descrizione di input, output e istruzioni;
 - esecuzione mentale di pseudocodice con più variabili o condizioni;
-- idea di divide et impera e distinzione dalle strategie iterative semplici.
+- distinzione esplicita tra algoritmo e programma;
+- uso preciso dei concetti di problema, istanza e soluzione;
+- verifica complessiva dei criteri di uscita del modulo 01.
 
 Prossimo esercizio da proporre:
 
-**Esercizio 11 — Comprendere l'idea di divide et impera su un problema semplice.**
+**Esercizio 12 — Verifica finale dei fondamenti: problema, istanza, soluzione e algoritmo vs programma.**
 
 Cartella corrente:
 
