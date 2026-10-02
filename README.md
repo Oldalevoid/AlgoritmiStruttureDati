@@ -262,7 +262,8 @@ Il push dell'esercizio e l'aggiornamento del README fanno parte della stessa fas
 
 ## Punto attuale del percorso
 
-**Ultimo esercizio completato: `01_fondamenti_algoritmi/esercizio_05.md`**
+**Ultimo esercizio completato: `01_fondamenti_algoritmi/esercizio_06.md`**  
+**Implementazione collegata: `01_fondamenti_algoritmi/esercizio_06.py`**
 
 Argomento corrente:
 
@@ -284,18 +285,22 @@ Concetti acquisiti finora:
 - traduzione di un algoritmo informale in pseudocodice;
 - uso corretto della struttura `SE / ALTRIMENTI SE / ALTRIMENTI`;
 - distinzione tra richiesta all'utente, lettura dell'input e produzione dell'output;
-- rispetto dell'output richiesto dalla consegna.
+- rispetto dell'output richiesto dalla consegna;
+- esecuzione manuale di pseudocodice con ciclo e condizione;
+- tracciamento del valore delle variabili a ogni iterazione;
+- comprensione della differenza tra `PER I DA 1 A N` e `range(1, n)`;
+- traduzione corretta dell'intervallo inclusivo in Python tramite `range(1, n + 1)`.
 
 Concetti da consolidare nei prossimi esercizi:
 
 - distinzione rapida tra le diverse proprietà formali di un algoritmo;
 - precisione formale nella descrizione di input, output e istruzioni;
-- lettura ed esecuzione mentale di pseudocodice;
+- esecuzione mentale di pseudocodice con più variabili o condizioni;
 - rappresentazione tramite flowchart.
 
 Prossimo esercizio da proporre:
 
-**Esercizio 06 — Leggere ed eseguire mentalmente un semplice pseudocodice.**
+**Esercizio 07 — Leggere e ricostruire un semplice flowchart.**
 
 Cartella corrente:
 
