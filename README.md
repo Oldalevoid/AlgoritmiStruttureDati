@@ -262,7 +262,7 @@ Il push dell'esercizio e l'aggiornamento del README fanno parte della stessa fas
 
 ## Punto attuale del percorso
 
-**Ultimo esercizio completato: `01_fondamenti_algoritmi/esercizio_07.md`**
+**Ultimo esercizio completato: `01_fondamenti_algoritmi/esercizio_08.md`**
 
 Argomento corrente:
 
@@ -291,18 +291,21 @@ Concetti acquisiti finora:
 - traduzione corretta dell'intervallo inclusivo in Python tramite `range(1, n + 1)`;
 - lettura di un semplice flowchart;
 - traduzione di un flowchart in pseudocodice;
-- distinzione logica tra `NEGATIVO` e `NON POSITIVO` per coprire correttamente il caso `N = 0`.
+- distinzione logica tra `NEGATIVO` e `NON POSITIVO` per coprire correttamente il caso `N = 0`;
+- costruzione autonoma di un flowchart a partire da pseudocodice;
+- uso corretto di ovale, parallelogramma, rombo e frecce;
+- ricongiungimento dei rami alternativi verso la fine dell'algoritmo.
 
 Concetti da consolidare nei prossimi esercizi:
 
 - distinzione rapida tra le diverse proprietà formali di un algoritmo;
 - precisione formale nella descrizione di input, output e istruzioni;
 - esecuzione mentale di pseudocodice con più variabili o condizioni;
-- costruzione autonoma di un flowchart a partire da pseudocodice.
+- flowchart che includono anche iterazioni/cicli.
 
 Prossimo esercizio da proporre:
 
-**Esercizio 08 — Costruire un flowchart a partire da un semplice pseudocodice.**
+**Esercizio 09 — Rappresentare un ciclo semplice tramite flowchart.**
 
 Cartella corrente:
 
