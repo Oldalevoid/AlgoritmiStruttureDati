@@ -262,7 +262,7 @@ Il push dell'esercizio e l'aggiornamento del README fanno parte della stessa fas
 
 ## Punto attuale del percorso
 
-**Ultimo esercizio completato: `01_fondamenti_algoritmi/esercizio_08.md`**
+**Ultimo esercizio completato: `01_fondamenti_algoritmi/esercizio_09.md`**
 
 Argomento corrente:
 
@@ -294,18 +294,21 @@ Concetti acquisiti finora:
 - distinzione logica tra `NEGATIVO` e `NON POSITIVO` per coprire correttamente il caso `N = 0`;
 - costruzione autonoma di un flowchart a partire da pseudocodice;
 - uso corretto di ovale, parallelogramma, rombo e frecce;
-- ricongiungimento dei rami alternativi verso la fine dell'algoritmo.
+- ricongiungimento dei rami alternativi verso la fine dell'algoritmo;
+- rappresentazione di un ciclo tramite flowchart;
+- uso della freccia di ritorno verso la condizione;
+- corretta sequenza tra stampa, aggiornamento della variabile e nuova verifica.
 
 Concetti da consolidare nei prossimi esercizi:
 
 - distinzione rapida tra le diverse proprietà formali di un algoritmo;
 - precisione formale nella descrizione di input, output e istruzioni;
 - esecuzione mentale di pseudocodice con più variabili o condizioni;
-- flowchart che includono anche iterazioni/cicli.
+- confronto tra algoritmi diversi che risolvono lo stesso problema.
 
 Prossimo esercizio da proporre:
 
-**Esercizio 09 — Rappresentare un ciclo semplice tramite flowchart.**
+**Esercizio 10 — Confrontare due semplici algoritmi che risolvono lo stesso problema.**
 
 Cartella corrente:
 
