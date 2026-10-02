@@ -262,65 +262,59 @@ Il push dell'esercizio e l'aggiornamento del README fanno parte della stessa fas
 
 ## Punto attuale del percorso
 
-**Ultimo esercizio completato: `01_fondamenti_algoritmi/esercizio_11.md`**
+**Ultimo esercizio completato: `01_fondamenti_algoritmi/esercizio_12.md`**
 
 Argomento corrente:
 
-**Fondamenti degli algoritmi**
+**02 — Complessità**
 
-Concetti acquisiti finora:
+Stato del modulo precedente:
 
+**01 — Fondamenti degli algoritmi: completato.**
+
+Concetti acquisiti nel modulo 01:
+
+- distinzione tra problema generale, istanza e soluzione;
+- distinzione tra algoritmo e programma;
 - distinzione tra input e output;
-- algoritmo come sequenza ordinata di istruzioni;
-- necessità di istruzioni non ambigue;
-- completezza dell'algoritmo rispetto ai casi possibili;
-- uso logico di condizioni alternative per distinguere casi diversi;
+- algoritmo come sequenza ordinata, finita e non ambigua di istruzioni;
 - proprietà fondamentali di un algoritmo: finito, eseguibile, non ambiguo, generale, deterministico e completo;
-- riconoscimento della proprietà violata in esempi concreti;
-- riconoscimento degli schemi di sequenza, selezione e iterazione;
-- comprensione del fatto che più schemi possono essere combinati e annidati nello stesso algoritmo;
-- scrittura autonoma di un algoritmo che combina sequenza, selezione e iterazione;
-- descrizione esplicita di un ciclo con un numero definito di ripetizioni;
-- traduzione di un algoritmo informale in pseudocodice;
-- uso corretto della struttura `SE / ALTRIMENTI SE / ALTRIMENTI`;
-- distinzione tra richiesta all'utente, lettura dell'input e produzione dell'output;
-- rispetto dell'output richiesto dalla consegna;
-- esecuzione manuale di pseudocodice con ciclo e condizione;
-- tracciamento del valore delle variabili a ogni iterazione;
-- comprensione della differenza tra `PER I DA 1 A N` e `range(1, n)`;
-- traduzione corretta dell'intervallo inclusivo in Python tramite `range(1, n + 1)`;
-- lettura di un semplice flowchart;
-- traduzione di un flowchart in pseudocodice;
-- distinzione logica tra `NEGATIVO` e `NON POSITIVO` per coprire correttamente il caso `N = 0`;
-- costruzione autonoma di un flowchart a partire da pseudocodice;
-- uso corretto di ovale, parallelogramma, rombo e frecce;
-- ricongiungimento dei rami alternativi verso la fine dell'algoritmo;
-- rappresentazione di un ciclo tramite flowchart;
-- uso della freccia di ritorno verso la condizione;
-- corretta sequenza tra stampa, aggiornamento della variabile e nuova verifica;
-- confronto tra due algoritmi che producono lo stesso risultato;
-- distinzione tra confronti diretti annidati e mantenimento di un massimo corrente;
-- comprensione intuitiva del fatto che alcune strategie sono più facilmente generalizzabili di altre;
+- riconoscimento di difetti e proprietà violate;
+- uso di sequenza, selezione, iterazione e assegnazione;
+- comprensione del principio di Böhm-Jacopini a livello introduttivo;
+- scrittura e lettura di pseudocodice semplice;
+- lettura e costruzione di flowchart;
+- esecuzione manuale di pseudocodice con cicli e condizioni;
+- tracciamento delle variabili durante l'esecuzione;
+- confronto tra algoritmi diversi che risolvono lo stesso problema;
 - comprensione del principio divide et impera;
 - riconoscimento delle fasi dividere, risolvere e combinare;
-- distinzione tra decomposizione top-down e ricomposizione bottom-up.
+- distinzione tra decomposizione top-down e ricomposizione bottom-up;
+- uso del resto della divisione (`MOD`) in pseudocodice per verificare pari/dispari.
 
-Concetti da consolidare nei prossimi esercizi:
+Punti emersi da ricordare:
 
-- distinzione rapida tra le diverse proprietà formali di un algoritmo;
-- precisione formale nella descrizione di input, output e istruzioni;
-- esecuzione mentale di pseudocodice con più variabili o condizioni;
-- distinzione esplicita tra algoritmo e programma;
-- uso preciso dei concetti di problema, istanza e soluzione;
-- verifica complessiva dei criteri di uscita del modulo 01.
+- l'**istanza** è lo specifico input del problema, non un'operazione effettuata su quell'input;
+- nelle condizioni e nei flowchart va mantenuto con precisione il verso dei confronti;
+- nei cicli va rispettato l'ordine tra operazione, aggiornamento della variabile e nuova verifica.
+
+Nuovi concetti da acquisire nel modulo 02:
+
+- dimensione dell'input `n`;
+- operazione elementare;
+- funzione di costo `T(n)`;
+- costo temporale e costo spaziale;
+- caso migliore, medio e peggiore;
+- notazione asintotica;
+- analisi di cicli semplici, cicli annidati e ricorsioni elementari.
 
 Prossimo esercizio da proporre:
 
-**Esercizio 12 — Verifica finale dei fondamenti: problema, istanza, soluzione e algoritmo vs programma.**
+**02_complessita/esercizio_01.md — Comprendere dimensione dell'input, operazione elementare e funzione di costo.**
 
 Cartella corrente:
 
-`01_fondamenti_algoritmi/`
+`02_complessita/`
 
 ## Autosufficienza della repository
 
