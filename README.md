@@ -262,7 +262,7 @@ Il push dell'esercizio e l'aggiornamento del README fanno parte della stessa fas
 
 ## Punto attuale del percorso
 
-**Ultimo esercizio completato: `02_complessita/esercizio_01.md`**
+**Ultimo esercizio completato: `02_complessita/esercizio_02.md`**
 
 Argomento corrente:
 
@@ -297,11 +297,14 @@ Concetti acquisiti finora nel modulo 02:
 - scelta di un'operazione elementare da contare;
 - significato della funzione di costo `T(n)`;
 - calcolo di un caso concreto, ad esempio `T(5) = 5`;
-- passaggio dal caso concreto alla forma generale `T(n) = n`.
+- passaggio dal caso concreto alla forma generale `T(n) = n`;
+- distinzione tra costo temporale `T(n)` e costo spaziale `S(n)`;
+- riconoscimento di spazio aggiuntivo costante quando il numero di variabili non cresce con `n`;
+- riconoscimento di spazio crescente quando viene creata una struttura di dimensione `n`;
+- confronto tra algoritmi con stesso costo temporale ma diverso costo spaziale.
 
 Concetti da acquisire o consolidare nel modulo 02:
 
-- costo temporale e costo spaziale;
 - conteggio di più operazioni elementari;
 - caso migliore, medio e peggiore;
 - notazione asintotica `O`, `Ω` e `Θ`;
@@ -318,7 +321,7 @@ Punti emersi da ricordare:
 
 Prossimo esercizio da proporre:
 
-**02_complessita/esercizio_02.md — Distinguere costo temporale e costo spaziale.**
+**02_complessita/esercizio_03.md — Contare più operazioni elementari nello stesso algoritmo.**
 
 Cartella corrente:
 
