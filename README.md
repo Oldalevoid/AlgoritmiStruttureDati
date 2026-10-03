@@ -262,7 +262,7 @@ Il push dell'esercizio e l'aggiornamento del README fanno parte della stessa fas
 
 ## Punto attuale del percorso
 
-**Ultimo esercizio completato: `02_complessita/esercizio_02.md`**
+**Ultimo esercizio completato: `02_complessita/esercizio_03.md`**
 
 Argomento corrente:
 
@@ -301,11 +301,13 @@ Concetti acquisiti finora nel modulo 02:
 - distinzione tra costo temporale `T(n)` e costo spaziale `S(n)`;
 - riconoscimento di spazio aggiuntivo costante quando il numero di variabili non cresce con `n`;
 - riconoscimento di spazio crescente quando viene creata una struttura di dimensione `n`;
-- confronto tra algoritmi con stesso costo temporale ma diverso costo spaziale.
+- confronto tra algoritmi con stesso costo temporale ma diverso costo spaziale;
+- conteggio di più operazioni elementari nello stesso algoritmo;
+- costruzione di funzioni di costo come `T(n) = 3n`, `T(n) = 2n + 1` e `T(n) = 3n + 3`;
+- distinzione tra termini che dipendono da `n` e termini costanti.
 
 Concetti da acquisire o consolidare nel modulo 02:
 
-- conteggio di più operazioni elementari;
 - caso migliore, medio e peggiore;
 - notazione asintotica `O`, `Ω` e `Θ`;
 - ordini di crescita;
@@ -321,7 +323,7 @@ Punti emersi da ricordare:
 
 Prossimo esercizio da proporre:
 
-**02_complessita/esercizio_03.md — Contare più operazioni elementari nello stesso algoritmo.**
+**02_complessita/esercizio_04.md — Distinguere caso migliore, medio e peggiore.**
 
 Cartella corrente:
 
