@@ -262,7 +262,7 @@ Il push dell'esercizio e l'aggiornamento del README fanno parte della stessa fas
 
 ## Punto attuale del percorso
 
-**Ultimo esercizio completato: `02_complessita/esercizio_03.md`**
+**Ultimo esercizio completato: `02_complessita/esercizio_04.md`**
 
 Argomento corrente:
 
@@ -304,11 +304,15 @@ Concetti acquisiti finora nel modulo 02:
 - confronto tra algoritmi con stesso costo temporale ma diverso costo spaziale;
 - conteggio di più operazioni elementari nello stesso algoritmo;
 - costruzione di funzioni di costo come `T(n) = 3n`, `T(n) = 2n + 1` e `T(n) = 3n + 3`;
-- distinzione tra termini che dipendono da `n` e termini costanti.
+- distinzione tra termini che dipendono da `n` e termini costanti;
+- distinzione tra caso migliore, medio e peggiore;
+- analisi dei tre casi nella ricerca lineare;
+- riconoscimento del caso migliore come costo costante;
+- riconoscimento del caso medio e peggiore come crescita lineare;
+- comprensione introduttiva del fatto che fattori costanti come `1/2` non cambiano l'ordine di crescita.
 
 Concetti da acquisire o consolidare nel modulo 02:
 
-- caso migliore, medio e peggiore;
 - notazione asintotica `O`, `Ω` e `Θ`;
 - ordini di crescita;
 - analisi di cicli semplici e cicli annidati;
@@ -323,7 +327,7 @@ Punti emersi da ricordare:
 
 Prossimo esercizio da proporre:
 
-**02_complessita/esercizio_04.md — Distinguere caso migliore, medio e peggiore.**
+**02_complessita/esercizio_05.md — Comprendere e distinguere `O`, `Ω` e `Θ`.**
 
 Cartella corrente:
 
