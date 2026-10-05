@@ -267,7 +267,7 @@ Il push dell'esercizio e l'aggiornamento del README fanno parte della stessa fas
 
 ## Punto attuale del percorso
 
-**Ultimo esercizio completato: `02_complessita/esercizio_07.md`**
+**Ultimo esercizio completato: `02_complessita/esercizio_08.md`**
 
 Argomento corrente:
 
@@ -322,7 +322,9 @@ Concetti acquisiti finora nel modulo 02:
 - riconoscimento di due cicli completi annidati come `Θ(n²)`;
 - riconoscimento di cicli annidati con crescita mista `Θ(n log n)`;
 - esperienza introduttiva pregressa con un semplice ciclo `for` in C, utile solo come confronto storico;
-- decisione successiva di usare **Python come unico linguaggio pratico** per evitare confusione tra più linguaggi mentre si studiano gli algoritmi.
+- decisione successiva di usare **Python come unico linguaggio pratico** per evitare confusione tra più linguaggi mentre si studiano gli algoritmi;
+- riconoscimento in Python di cicli `Theta(n)`, `Theta(log n)` e `Theta(n^2)`;
+- scrittura autonoma di un ciclo `while` logaritmico con `i *= 2`.
 
 Concetti da acquisire o consolidare nel modulo 02:
 
@@ -343,7 +345,7 @@ Punti emersi da ricordare:
 
 Prossimo esercizio da proporre:
 
-**02_complessita/esercizio_08.md — Analizzare e implementare in Python cicli con crescita lineare, logaritmica e quadratica.**
+**02_complessita/esercizio_09.md — Confrontare ordini di crescita e analizzare semplici cicli con limiti non immediati.**
 
 Cartella corrente:
 
