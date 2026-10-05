@@ -267,7 +267,7 @@ Il push dell'esercizio e l'aggiornamento del README fanno parte della stessa fas
 
 ## Punto attuale del percorso
 
-**Ultimo esercizio completato: `02_complessita/esercizio_10.md`**
+**Ultimo esercizio completato: `02_complessita/esercizio_11.md`**
 
 Argomento corrente:
 
@@ -327,7 +327,8 @@ Concetti acquisiti finora nel modulo 02:
 - scrittura autonoma di un ciclo `while` logaritmico con `i *= 2`;
 - distinzione tra `n/2` iterazioni, che restano lineari, e dimezzamento ripetuto, che è logaritmico;
 - analisi di cicli annidati con limiti `n // 2` e `n` come `Theta(n^2)`;
-- ordinamento corretto delle classi `Theta(1)`, `Theta(log n)`, `Theta(n)`, `Theta(n log n)` e `Theta(n^2)`.
+- ordinamento corretto delle classi `Theta(1)`, `Theta(log n)`, `Theta(n)`, `Theta(n log n)` e `Theta(n^2)`;
+- riconoscimento della crescita esponenziale `Theta(2^n)` come peggiore della crescita quadratica.
 
 Concetti da acquisire o consolidare nel modulo 02:
 
@@ -348,7 +349,7 @@ Punti emersi da ricordare:
 
 Prossimo esercizio da proporre:
 
-**02_complessita/esercizio_11.md — Confrontare crescita polinomiale ed esponenziale e riconoscere `Theta(2^n)`.**
+**02_complessita/esercizio_12.md — Analizzare semplici ricorrenze e introdurre la complessità degli algoritmi ricorsivi.**
 
 Cartella corrente:
 
