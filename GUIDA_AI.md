@@ -33,7 +33,8 @@ La repository deve essere sufficiente per generare la progressione didattica.
 
 - `.md`: teoria, pseudocodice, simulazioni manuali, complessità, confronti, domande d'esame;
 - `.py`: implementazioni Python;
-- `.cpp`: C++ quando memoria/puntatori/allocazione sono parte dell'obiettivo.
+- `.c`: micro-laboratori ed esercizi progressivi in C;
+- `.cpp`: C++ dopo una base sufficiente di C o quando l'argomento beneficia delle sue astrazioni.
 
 Non trasformare ogni esercizio in programmazione.
 
@@ -43,15 +44,22 @@ Usarlo come linguaggio principale di laboratorio quando il linguaggio non è l'o
 
 Non richiedere caratteristiche Python avanzate senza averle prima introdotte.
 
-## C/C++
+## Percorso parallelo C → C++
 
-Usarlo soprattutto per:
-- indirizzi;
-- puntatori;
-- stack/heap;
-- allocazione dinamica;
-- `new` / `delete`;
-- strutture esplicitamente basate su puntatori.
+Da questo punto gli esercizi del corso devono contribuire anche all'apprendimento progressivo del C.
+
+Regole:
+- il concetto algoritmico resta sempre l'obiettivo principale;
+- introdurre al massimo pochi elementi nuovi di sintassi C per esercizio;
+- quando utile, affiancare all'esercizio teorico o in pseudocodice un breve micro-laboratorio C sullo stesso concetto;
+- non richiedere sintassi C non ancora introdotta senza prima spiegarla;
+- riutilizzare in C algoritmi già compresi concettualmente, così lo sforzo nuovo riguarda soprattutto il linguaggio;
+- partire da struttura di un programma, tipi, variabili, input/output, condizioni, cicli, funzioni e array;
+- procedere poi verso puntatori, indirizzi, `struct`, stack/heap, allocazione dinamica con `malloc`/`free` e strutture dati basate su puntatori;
+- introdurre C++ solo dopo una base sufficiente di C, mostrando esplicitamente cosa cambia rispetto al C;
+- in C++ introdurre progressivamente riferimenti, classi solo quando utili, RAII e contenitori della STL, senza nascondere prematuramente i concetti di memoria studiati in C.
+
+Il percorso non deve diventare un corso di linguaggio separato: C e C++ devono essere insegnati attraverso gli stessi problemi di Algoritmi e Strutture Dati.
 
 ## Pseudocodice
 
