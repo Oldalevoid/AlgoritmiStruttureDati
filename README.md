@@ -39,10 +39,10 @@ L'AI che utilizza questa repository come contesto deve:
 4. lasciare allo studente il compito di scrivere la soluzione;
 5. in caso di errore, indicare cosa non funziona e guidare il ragionamento senza fornire immediatamente la soluzione completa, salvo richiesta esplicita;
 6. alternare esercizi teorici, esecuzioni manuali, pseudocodice, analisi di complessità e implementazioni;
-7. usare **Python** quando è utile per concentrarsi sulla logica algoritmica senza introdurre troppa sintassi nuova;
-8. affiancare progressivamente **C** agli esercizi del corso con micro-laboratori che insegnino solo la sintassi necessaria in quel punto del percorso;
-9. introdurre **C++** in un secondo momento, dopo che lo studente ha acquisito solide basi di C;
-10. non sostituire con Python o C un esercizio che richiede esplicitamente pseudocodice;
+7. usare **Python come unico linguaggio pratico di accompagnamento** al corso, introducendo progressivamente anche la sintassi Python necessaria;
+8. usare Python per implementare gli stessi concetti algoritmici affrontati nel programma universitario, senza trasformare il percorso in un corso di programmazione separato;
+9. non introdurre C o C++ come secondo percorso parallelo, salvo futura richiesta esplicita dello studente o necessità strettamente legata al programma;
+10. non sostituire con Python un esercizio che richiede esplicitamente pseudocodice;
 11. mantenere terminologia, perimetro e progressione definiti in `PROGRAMMA_CORSO.md`;
 12. leggere e rispettare `GUIDA_AI.md`;
 13. non chiedere le dispense originali per poter proseguire il percorso;
@@ -55,9 +55,9 @@ Non tutti gli esercizi devono essere file Python.
 Possono essere utilizzati:
 
 - `.md` → teoria, esecuzioni manuali, pseudocodice, complessità, confronti e domande d'esame;
-- `.py` → implementazioni in Python;
-- `.c` → micro-laboratori ed esercizi progressivi in C;
-- `.cpp` → esercizi in C++ dopo l'acquisizione delle basi di C o quando utile per l'argomento.
+- `.py` → implementazioni in Python collegate direttamente agli argomenti del corso.
+
+C e C++ non fanno parte del percorso pratico corrente e non devono essere introdotti automaticamente.
 
 Quando ha senso, uno stesso argomento può essere affrontato in più passaggi:
 
@@ -234,7 +234,7 @@ Argomenti di riferimento:
 
 Lo studente sta già imparando Python attraverso una repository separata di esercizi progressivi e possiede le basi del linguaggio necessarie per iniziare semplici implementazioni.
 
-Da questo punto il percorso ha anche un secondo obiettivo pratico: **imparare progressivamente C di pari passo con Algoritmi e Strutture Dati**. Il C non deve sostituire pseudocodice, teoria o analisi della complessità: deve essere introdotto come laboratorio parallelo, pochi concetti per volta. C++ verrà introdotto successivamente, quando le basi di C saranno abbastanza solide.
+Da questo punto il percorso ha anche un secondo obiettivo pratico: **rafforzare progressivamente Python attraverso gli stessi esercizi di Algoritmi e Strutture Dati**. Python deve restare uno strumento al servizio del corso universitario: teoria, pseudocodice, correttezza e complessità rimangono prioritari. La sintassi Python va introdotta solo quando serve a implementare i concetti del programma, evitando un secondo percorso separato di programmazione.
 
 Per questa materia, tuttavia, il percorso deve partire dai **fondamenti algoritmici**: non bisogna confondere la capacità di scrivere semplici programmi Python con la padronanza di algoritmi, strutture dati e analisi della complessità.
 
@@ -321,17 +321,16 @@ Concetti acquisiti finora nel modulo 02:
 - riconoscimento di cicli con indice moltiplicato per 2 come `Θ(log n)`;
 - riconoscimento di due cicli completi annidati come `Θ(n²)`;
 - riconoscimento di cicli annidati con crescita mista `Θ(n log n)`;
-- lettura introduttiva della sintassi C di un ciclo `for`, di `int`, `printf`, `i++`, `i += 2` e `i *= 2`;
-- scrittura autonoma di un primo ciclo `for` in C;
-- uso corretto di `printf("%d\\n", i)` per stampare interi.
+- esperienza introduttiva pregressa con un semplice ciclo `for` in C, utile solo come confronto storico;
+- decisione successiva di usare **Python come unico linguaggio pratico** per evitare confusione tra più linguaggi mentre si studiano gli algoritmi.
 
 Concetti da acquisire o consolidare nel modulo 02:
 
 - consolidare il confronto tra diversi ordini di crescita;
 - consolidare il confronto tra `Θ(n)`, `Θ(log n)`, `Θ(n log n)` e `Θ(n²)`;
 - analisi di ricorsioni elementari;
-- consolidare la scrittura autonoma di semplici programmi C;
-- introdurre input da tastiera e condizioni in C.
+- consolidare la traduzione degli algoritmi in Python;
+- usare Python per esercitare cicli, condizioni, funzioni e strutture dati solo quando collegati agli argomenti del corso.
 
 Punti emersi da ricordare:
 
@@ -344,7 +343,7 @@ Punti emersi da ricordare:
 
 Prossimo esercizio da proporre:
 
-**02_complessita/esercizio_08.md — Primo programma C con input da tastiera e ciclo controllato da `n`.**
+**02_complessita/esercizio_08.md — Analizzare e implementare in Python cicli con crescita lineare, logaritmica e quadratica.**
 
 Cartella corrente:
 
@@ -370,5 +369,3 @@ Questo README contiene lo stato aggiornato del percorso.
 
 La repository è la memoria didattica permanente del percorso: qualsiasi AI che la analizzi deve poter capire **cosa è stato studiato, cosa è stato realmente esercitato, quali difficoltà sono emerse e da quale punto deve continuare**, senza richiedere le dispense originali.
 
-
-<!-- esercizio_06 completato; prossimo: esercizio_07 -->
