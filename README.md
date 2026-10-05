@@ -39,12 +39,14 @@ L'AI che utilizza questa repository come contesto deve:
 4. lasciare allo studente il compito di scrivere la soluzione;
 5. in caso di errore, indicare cosa non funziona e guidare il ragionamento senza fornire immediatamente la soluzione completa, salvo richiesta esplicita;
 6. alternare esercizi teorici, esecuzioni manuali, pseudocodice, analisi di complessità e implementazioni;
-7. usare **Python** come linguaggio principale per le implementazioni quando il linguaggio non è parte dell'oggetto dell'esercizio;
-8. usare **C/C++** quando l'argomento del corso richiede esplicitamente aspetti come memoria, puntatori o una specifica implementazione;
+7. usare **Python** quando è utile per concentrarsi sulla logica algoritmica senza introdurre troppa sintassi nuova;
+8. affiancare progressivamente **C** agli esercizi del corso con micro-laboratori che insegnino solo la sintassi necessaria in quel punto del percorso;
+9. introdurre **C++** in un secondo momento, dopo che lo studente ha acquisito solide basi di C;
 10. non sostituire con Python o C un esercizio che richiede esplicitamente pseudocodice;
 11. mantenere terminologia, perimetro e progressione definiti in `PROGRAMMA_CORSO.md`;
 12. leggere e rispettare `GUIDA_AI.md`;
-13. non chiedere le dispense originali per poter proseguire il percorso.
+13. non chiedere le dispense originali per poter proseguire il percorso;
+14. al completamento di ogni esercizio, **pusharlo automaticamente** e aggiornare contestualmente questo README.
 
 ## Tipi di esercizio
 
@@ -265,7 +267,7 @@ Il push dell'esercizio e l'aggiornamento del README fanno parte della stessa fas
 
 ## Punto attuale del percorso
 
-**Ultimo esercizio completato: `02_complessita/esercizio_04.md`**
+**Ultimo esercizio completato: `02_complessita/esercizio_05.md`**
 
 Argomento corrente:
 
@@ -312,25 +314,33 @@ Concetti acquisiti finora nel modulo 02:
 - analisi dei tre casi nella ricerca lineare;
 - riconoscimento del caso migliore come costo costante;
 - riconoscimento del caso medio e peggiore come crescita lineare;
-- comprensione introduttiva del fatto che fattori costanti come `1/2` non cambiano l'ordine di crescita.
+- comprensione introduttiva del fatto che fattori costanti come `1/2` non cambiano l'ordine di crescita;
+- distinzione operativa tra `O`, `Ω` e `Θ`;
+- riconoscimento di `Θ(n)` come ordine stretto per funzioni lineari come `5n + 10`;
+- riconoscimento di cicli lineari `Θ(n)`;
+- riconoscimento di cicli con indice moltiplicato per 2 come `Θ(log n)`;
+- riconoscimento di due cicli completi annidati come `Θ(n²)`;
+- lettura introduttiva della sintassi C di un ciclo `for`, di `int`, `printf`, `i++`, `i += 2` e `i *= 2`.
 
 Concetti da acquisire o consolidare nel modulo 02:
 
-- notazione asintotica `O`, `Ω` e `Θ`;
-- ordini di crescita;
-- analisi di cicli semplici e cicli annidati;
-- analisi di ricorsioni elementari.
+- consolidare il confronto tra diversi ordini di crescita;
+- analizzare cicli annidati in cui i due cicli hanno crescite diverse, ad esempio `Θ(n log n)`;
+- analisi di ricorsioni elementari;
+- scrivere autonomamente semplici cicli `for` in C, non soltanto leggerli.
 
 Punti emersi da ricordare:
 
 - l'istanza è lo specifico input del problema, non un'operazione effettuata su quell'input;
 - nelle condizioni e nei flowchart va mantenuto con precisione il verso dei confronti;
 - nei cicli va rispettato l'ordine tra operazione, aggiornamento della variabile e nuova verifica;
-- nella complessità bisogna dichiarare chiaramente quale operazione elementare si sta contando.
+- nella complessità bisogna dichiarare chiaramente quale operazione elementare si sta contando;
+- un ciclo annidato non è automaticamente quadratico: bisogna analizzare quante iterazioni compie ciascun ciclo;
+- distinguere con attenzione i simboli `O`, `Ω` e `Θ`.
 
 Prossimo esercizio da proporre:
 
-**02_complessita/esercizio_05.md — Comprendere e distinguere `O`, `Ω` e `Θ`.**
+**02_complessita/esercizio_06.md — Cicli annidati con crescite diverse: riconoscere `Θ(n log n)` e scrivere un primo piccolo ciclo in C.**
 
 Cartella corrente:
 
