@@ -41,10 +41,10 @@ L'AI che utilizza questa repository come contesto deve:
 6. alternare esercizi teorici, esecuzioni manuali, pseudocodice, analisi di complessità e implementazioni;
 7. usare **Python** come linguaggio principale per le implementazioni quando il linguaggio non è parte dell'oggetto dell'esercizio;
 8. usare **C/C++** quando l'argomento del corso richiede esplicitamente aspetti come memoria, puntatori o una specifica implementazione;
-9. non sostituire con Python un esercizio che richiede esplicitamente pseudocodice;
-10. mantenere terminologia, perimetro e progressione definiti in `PROGRAMMA_CORSO.md`;
-11. leggere e rispettare `GUIDA_AI.md`;
-12. non chiedere le dispense originali per poter proseguire il percorso.
+10. non sostituire con Python o C un esercizio che richiede esplicitamente pseudocodice;
+11. mantenere terminologia, perimetro e progressione definiti in `PROGRAMMA_CORSO.md`;
+12. leggere e rispettare `GUIDA_AI.md`;
+13. non chiedere le dispense originali per poter proseguire il percorso.
 
 ## Tipi di esercizio
 
@@ -54,7 +54,8 @@ Possono essere utilizzati:
 
 - `.md` → teoria, esecuzioni manuali, pseudocodice, complessità, confronti e domande d'esame;
 - `.py` → implementazioni in Python;
-- `.cpp` → esercizi in C++ quando utili o richiesti dall'argomento.
+- `.c` → micro-laboratori ed esercizi progressivi in C;
+- `.cpp` → esercizi in C++ dopo l'acquisizione delle basi di C o quando utile per l'argomento.
 
 Quando ha senso, uno stesso argomento può essere affrontato in più passaggi:
 
@@ -230,6 +231,8 @@ Argomenti di riferimento:
 ## Stato iniziale dello studente
 
 Lo studente sta già imparando Python attraverso una repository separata di esercizi progressivi e possiede le basi del linguaggio necessarie per iniziare semplici implementazioni.
+
+Da questo punto il percorso ha anche un secondo obiettivo pratico: **imparare progressivamente C di pari passo con Algoritmi e Strutture Dati**. Il C non deve sostituire pseudocodice, teoria o analisi della complessità: deve essere introdotto come laboratorio parallelo, pochi concetti per volta. C++ verrà introdotto successivamente, quando le basi di C saranno abbastanza solide.
 
 Per questa materia, tuttavia, il percorso deve partire dai **fondamenti algoritmici**: non bisogna confondere la capacità di scrivere semplici programmi Python con la padronanza di algoritmi, strutture dati e analisi della complessità.
 
