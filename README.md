@@ -365,3 +365,6 @@ Questo README contiene lo stato aggiornato del percorso.
 ## Principio guida
 
 La repository è la memoria didattica permanente del percorso: qualsiasi AI che la analizzi deve poter capire **cosa è stato studiato, cosa è stato realmente esercitato, quali difficoltà sono emerse e da quale punto deve continuare**, senza richiedere le dispense originali.
+
+
+<!-- esercizio_06 completato; prossimo: esercizio_07 -->
