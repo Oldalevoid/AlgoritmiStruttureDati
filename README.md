@@ -267,7 +267,7 @@ Il push dell'esercizio e l'aggiornamento del README fanno parte della stessa fas
 
 ## Punto attuale del percorso
 
-**Ultimo esercizio completato: `02_complessita/esercizio_05.md`**
+**Ultimo esercizio completato: `02_complessita/esercizio_06.md`**
 
 Argomento corrente:
 
@@ -320,12 +320,13 @@ Concetti acquisiti finora nel modulo 02:
 - riconoscimento di cicli lineari `Θ(n)`;
 - riconoscimento di cicli con indice moltiplicato per 2 come `Θ(log n)`;
 - riconoscimento di due cicli completi annidati come `Θ(n²)`;
+- riconoscimento di cicli annidati con crescita mista `Θ(n log n)`;
 - lettura introduttiva della sintassi C di un ciclo `for`, di `int`, `printf`, `i++`, `i += 2` e `i *= 2`.
 
 Concetti da acquisire o consolidare nel modulo 02:
 
 - consolidare il confronto tra diversi ordini di crescita;
-- analizzare cicli annidati in cui i due cicli hanno crescite diverse, ad esempio `Θ(n log n)`;
+- consolidare il confronto tra `Θ(n)`, `Θ(log n)`, `Θ(n log n)` e `Θ(n²)`;
 - analisi di ricorsioni elementari;
 - scrivere autonomamente semplici cicli `for` in C, non soltanto leggerli.
 
@@ -340,7 +341,7 @@ Punti emersi da ricordare:
 
 Prossimo esercizio da proporre:
 
-**02_complessita/esercizio_06.md — Cicli annidati con crescite diverse: riconoscere `Θ(n log n)` e scrivere un primo piccolo ciclo in C.**
+**02_complessita/esercizio_07.md — Scrivere autonomamente un primo ciclo `for` in C e analizzarne la complessità.**
 
 Cartella corrente:
 
