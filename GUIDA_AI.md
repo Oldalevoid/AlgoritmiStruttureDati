@@ -32,34 +32,27 @@ La repository deve essere sufficiente per generare la progressione didattica.
 ## Formati
 
 - `.md`: teoria, pseudocodice, simulazioni manuali, complessità, confronti, domande d'esame;
-- `.py`: implementazioni Python;
-- `.c`: micro-laboratori ed esercizi progressivi in C;
-- `.cpp`: C++ dopo una base sufficiente di C o quando l'argomento beneficia delle sue astrazioni.
+- `.py`: implementazioni Python collegate agli argomenti del corso.
+
+Non introdurre automaticamente C o C++ nel percorso corrente.
 
 Non trasformare ogni esercizio in programmazione.
 
-## Python
+## Python come linguaggio pratico unico
 
-Usarlo come linguaggio principale di laboratorio quando il linguaggio non è l'oggetto dell'esercizio.
-
-Non richiedere caratteristiche Python avanzate senza averle prima introdotte.
-
-## Percorso parallelo C → C++
-
-Da questo punto gli esercizi del corso devono contribuire anche all'apprendimento progressivo del C.
+Usare Python come unico linguaggio di laboratorio del percorso corrente.
 
 Regole:
-- il concetto algoritmico resta sempre l'obiettivo principale;
-- introdurre al massimo pochi elementi nuovi di sintassi C per esercizio;
-- quando utile, affiancare all'esercizio teorico o in pseudocodice un breve micro-laboratorio C sullo stesso concetto;
-- non richiedere sintassi C non ancora introdotta senza prima spiegarla;
-- riutilizzare in C algoritmi già compresi concettualmente, così lo sforzo nuovo riguarda soprattutto il linguaggio;
-- partire da struttura di un programma, tipi, variabili, input/output, condizioni, cicli, funzioni e array;
-- procedere poi verso puntatori, indirizzi, `struct`, stack/heap, allocazione dinamica con `malloc`/`free` e strutture dati basate su puntatori;
-- introdurre C++ solo dopo una base sufficiente di C, mostrando esplicitamente cosa cambia rispetto al C;
-- in C++ introdurre progressivamente riferimenti, classi solo quando utili, RAII e contenitori della STL, senza nascondere prematuramente i concetti di memoria studiati in C.
+- il programma universitario di Algoritmi e Strutture Dati resta sempre l'obiettivo principale;
+- Python serve a implementare e verificare gli stessi concetti studiati in teoria e pseudocodice;
+- introdurre pochi elementi nuovi di sintassi Python per volta;
+- non richiedere caratteristiche Python non ancora introdotte senza prima spiegarle;
+- preferire esercizi in cui la difficoltà principale resta algoritmica, non sintattica;
+- collegare cicli, condizioni, funzioni, liste, dizionari, ricorsione e altre caratteristiche Python agli argomenti effettivamente affrontati nel corso;
+- non trasformare il percorso in un corso generale di Python separato;
+- non introdurre C o C++ come secondo binario parallelo, salvo futura richiesta esplicita dello studente o necessità strettamente collegata al programma.
 
-Il percorso non deve diventare un corso di linguaggio separato: C e C++ devono essere insegnati attraverso gli stessi problemi di Algoritmi e Strutture Dati.
+Quando un argomento richiede pseudocodice, esecuzione manuale o analisi di complessità, Python non deve sostituire quella parte dell'esercizio.
 
 ## Pseudocodice
 
