@@ -125,11 +125,9 @@ Per argomenti importanti usare più di una modalità.
 
 ## Quando l'esercizio è completato
 
-Dichiararlo chiaramente.
+Dichiararlo chiaramente e **pusharlo automaticamente**, senza attendere una richiesta ulteriore dell'utente.
 
-Non pushare automaticamente: aspettare che l'utente chieda il push.
-
-## Quando l'utente chiede di pushare
+A ogni esercizio completato:
 
 1. creare il file nella cartella corretta;
 2. preservare la soluzione raggiunta dallo studente, normalizzandone solo la forma;
