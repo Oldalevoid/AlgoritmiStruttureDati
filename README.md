@@ -267,7 +267,7 @@ Il push dell'esercizio e l'aggiornamento del README fanno parte della stessa fas
 
 ## Punto attuale del percorso
 
-**Ultimo esercizio completato: `02_complessita/esercizio_13.md`**
+**Ultimo esercizio completato: `02_complessita/esercizio_14.md`**
 
 Argomento corrente:
 
@@ -337,14 +337,18 @@ Concetti acquisiti finora nel modulo 02:
 - comprensione introduttiva di `T(n) = 2T(n - 1) + 1` come crescita esponenziale `Theta(2^n)`;
 - consolidamento della pila delle chiamate e della distinzione tra discesa e risalita;
 - comprensione del fatto che, in risalita, vengono eseguite solo le istruzioni poste dopo la chiamata ricorsiva;
-- riconoscimento autonomo di ricorsioni `Theta(n)`, `Theta(log n)` e `Theta(2^n)`.
+- riconoscimento autonomo di ricorsioni `Theta(n)`, `Theta(log n)` e `Theta(2^n)`;
+- distinzione tra numero di livelli ricorsivi e costo del lavoro svolto a ogni livello;
+- comprensione della somma geometrica `n + n/2 + n/4 + ...` come `Theta(n)`;
+- riconoscimento della somma `n + (n-1) + ... + 1` come `Theta(n^2)`;
+- consolidamento della differenza tra cicli in sequenza, i cui costi si sommano, e cicli annidati, i cui costi spesso si moltiplicano.
 
 Concetti da acquisire o consolidare nel modulo 02:
 
 - consolidare il confronto tra diversi ordini di crescita;
 - consolidare il confronto tra `Θ(n)`, `Θ(log n)`, `Θ(n log n)` e `Θ(n²)`;
-- consolidare ulteriormente il riconoscimento delle ricorrenze elementari;
-- iniziare a collegare ricorsione e analisi di casi leggermente più articolati;
+- consolidare ulteriormente il confronto tra ricorrenze e cicli non ricorsivi;
+- affrontare una breve verifica mista del modulo 02 prima di passare al modulo successivo;
 - consolidare la traduzione degli algoritmi in Python;
 - usare Python per esercitare cicli, condizioni, funzioni e strutture dati solo quando collegati agli argomenti del corso.
 
@@ -360,7 +364,7 @@ Punti emersi da ricordare:
 
 Prossimo esercizio da proporre:
 
-**02_complessita/esercizio_14.md — Analizzare ricorrenze un po' più articolate e distinguere il costo per livello dal numero di livelli.**
+**02_complessita/esercizio_15.md — Verifica mista del modulo 02: cicli, notazione asintotica, ricorsione e confronto tra ordini di crescita.**
 
 Cartella corrente:
 
