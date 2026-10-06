@@ -267,15 +267,17 @@ Il push dell'esercizio e l'aggiornamento del README fanno parte della stessa fas
 
 ## Punto attuale del percorso
 
-**Ultimo esercizio completato: `02_complessita/esercizio_14.md`**
+**Ultimo esercizio completato: `02_complessita/esercizio_15.md`**
 
 Argomento corrente:
 
-**02 — Complessità**
+**03 — Array, memoria e ricerca**
 
-Stato del modulo precedente:
+Stato dei moduli precedenti:
 
 **01 — Fondamenti degli algoritmi: completato.**
+
+**02 — Complessità: completato.**
 
 Concetti acquisiti nel modulo 01:
 
@@ -341,14 +343,18 @@ Concetti acquisiti finora nel modulo 02:
 - distinzione tra numero di livelli ricorsivi e costo del lavoro svolto a ogni livello;
 - comprensione della somma geometrica `n + n/2 + n/4 + ...` come `Theta(n)`;
 - riconoscimento della somma `n + (n-1) + ... + 1` come `Theta(n^2)`;
-- consolidamento della differenza tra cicli in sequenza, i cui costi si sommano, e cicli annidati, i cui costi spesso si moltiplicano.
+- consolidamento della differenza tra cicli in sequenza, i cui costi si sommano, e cicli annidati, i cui costi spesso si moltiplicano;
+- verifica mista superata sui concetti fondamentali del modulo 02;
+- riconoscimento del termine dominante in funzioni come `7n^2 + 3n + 20`, `4n + 100` e `3n log n + 5n`;
+- ordinamento corretto delle principali classi: `Theta(1) < Theta(log n) < Theta(n) < Theta(n log n) < Theta(n^2) < Theta(2^n)`.
 
 Concetti da acquisire o consolidare nel modulo 02:
 
 - consolidare il confronto tra diversi ordini di crescita;
 - consolidare il confronto tra `Θ(n)`, `Θ(log n)`, `Θ(n log n)` e `Θ(n²)`;
-- consolidare ulteriormente il confronto tra ricorrenze e cicli non ricorsivi;
-- affrontare una breve verifica mista del modulo 02 prima di passare al modulo successivo;
+- mantenere attenzione sulla differenza tra `n/2` iterazioni e dimezzamento ripetuto;
+- mantenere attenzione sulla distinzione tra `O`, `Ω` e `Θ`;
+- iniziare il modulo 03 con array, accesso per indice e visita.
 - consolidare la traduzione degli algoritmi in Python;
 - usare Python per esercitare cicli, condizioni, funzioni e strutture dati solo quando collegati agli argomenti del corso.
 
@@ -364,11 +370,11 @@ Punti emersi da ricordare:
 
 Prossimo esercizio da proporre:
 
-**02_complessita/esercizio_15.md — Verifica mista del modulo 02: cicli, notazione asintotica, ricorsione e confronto tra ordini di crescita.**
+**03_array_memoria_ricerca/esercizio_01.md — Introdurre array/lista Python, accesso tramite indice e visita lineare.**
 
 Cartella corrente:
 
-`02_complessita/`
+`03_array_memoria_ricerca/`
 
 ## Autosufficienza della repository
 
