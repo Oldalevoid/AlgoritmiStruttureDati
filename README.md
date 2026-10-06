@@ -267,7 +267,7 @@ Il push dell'esercizio e l'aggiornamento del README fanno parte della stessa fas
 
 ## Punto attuale del percorso
 
-**Ultimo esercizio completato: `02_complessita/esercizio_12.md`**
+**Ultimo esercizio completato: `02_complessita/esercizio_13.md`**
 
 Argomento corrente:
 
@@ -334,14 +334,17 @@ Concetti acquisiti finora nel modulo 02:
 - comprensione della pila delle chiamate: una chiamata resta in pausa mentre viene eseguita quella successiva e riprende al ritorno;
 - riconoscimento di `T(n) = T(n - 1) + 1` come `Theta(n)`;
 - riconoscimento di `T(n) = T(n / 2) + 1` come `Theta(log n)`;
-- comprensione introduttiva di `T(n) = 2T(n - 1) + 1` come crescita esponenziale `Theta(2^n)`.
+- comprensione introduttiva di `T(n) = 2T(n - 1) + 1` come crescita esponenziale `Theta(2^n)`;
+- consolidamento della pila delle chiamate e della distinzione tra discesa e risalita;
+- comprensione del fatto che, in risalita, vengono eseguite solo le istruzioni poste dopo la chiamata ricorsiva;
+- riconoscimento autonomo di ricorsioni `Theta(n)`, `Theta(log n)` e `Theta(2^n)`.
 
 Concetti da acquisire o consolidare nel modulo 02:
 
 - consolidare il confronto tra diversi ordini di crescita;
 - consolidare il confronto tra `Θ(n)`, `Θ(log n)`, `Θ(n log n)` e `Θ(n²)`;
-- consolidare l'esecuzione manuale della ricorsione e la pila delle chiamate;
-- consolidare il riconoscimento delle ricorrenze elementari;
+- consolidare ulteriormente il riconoscimento delle ricorrenze elementari;
+- iniziare a collegare ricorsione e analisi di casi leggermente più articolati;
 - consolidare la traduzione degli algoritmi in Python;
 - usare Python per esercitare cicli, condizioni, funzioni e strutture dati solo quando collegati agli argomenti del corso.
 
@@ -357,7 +360,7 @@ Punti emersi da ricordare:
 
 Prossimo esercizio da proporre:
 
-**02_complessita/esercizio_13.md — Consolidare la pila delle chiamate e il riconoscimento di ricorrenze lineari, logaritmiche ed esponenziali.**
+**02_complessita/esercizio_14.md — Analizzare ricorrenze un po' più articolate e distinguere il costo per livello dal numero di livelli.**
 
 Cartella corrente:
 
