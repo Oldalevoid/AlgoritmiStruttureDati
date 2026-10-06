@@ -267,7 +267,7 @@ Il push dell'esercizio e l'aggiornamento del README fanno parte della stessa fas
 
 ## Punto attuale del percorso
 
-**Ultimo esercizio completato: `02_complessita/esercizio_11.md`**
+**Ultimo esercizio completato: `02_complessita/esercizio_12.md`**
 
 Argomento corrente:
 
@@ -328,13 +328,20 @@ Concetti acquisiti finora nel modulo 02:
 - distinzione tra `n/2` iterazioni, che restano lineari, e dimezzamento ripetuto, che è logaritmico;
 - analisi di cicli annidati con limiti `n // 2` e `n` come `Theta(n^2)`;
 - ordinamento corretto delle classi `Theta(1)`, `Theta(log n)`, `Theta(n)`, `Theta(n log n)` e `Theta(n^2)`;
-- riconoscimento della crescita esponenziale `Theta(2^n)` come peggiore della crescita quadratica.
+- riconoscimento della crescita esponenziale `Theta(2^n)` come peggiore della crescita quadratica;
+- comprensione introduttiva della ricorsione come funzione che richiama sé stessa;
+- riconoscimento del caso base e della chiamata ricorsiva;
+- comprensione della pila delle chiamate: una chiamata resta in pausa mentre viene eseguita quella successiva e riprende al ritorno;
+- riconoscimento di `T(n) = T(n - 1) + 1` come `Theta(n)`;
+- riconoscimento di `T(n) = T(n / 2) + 1` come `Theta(log n)`;
+- comprensione introduttiva di `T(n) = 2T(n - 1) + 1` come crescita esponenziale `Theta(2^n)`.
 
 Concetti da acquisire o consolidare nel modulo 02:
 
 - consolidare il confronto tra diversi ordini di crescita;
 - consolidare il confronto tra `Θ(n)`, `Θ(log n)`, `Θ(n log n)` e `Θ(n²)`;
-- analisi di ricorsioni elementari;
+- consolidare l'esecuzione manuale della ricorsione e la pila delle chiamate;
+- consolidare il riconoscimento delle ricorrenze elementari;
 - consolidare la traduzione degli algoritmi in Python;
 - usare Python per esercitare cicli, condizioni, funzioni e strutture dati solo quando collegati agli argomenti del corso.
 
@@ -345,11 +352,12 @@ Punti emersi da ricordare:
 - nei cicli va rispettato l'ordine tra operazione, aggiornamento della variabile e nuova verifica;
 - nella complessità bisogna dichiarare chiaramente quale operazione elementare si sta contando;
 - un ciclo annidato non è automaticamente quadratico: bisogna analizzare quante iterazioni compie ciascun ciclo;
-- distinguere con attenzione i simboli `O`, `Ω` e `Θ`.
+- distinguere con attenzione i simboli `O`, `Ω` e `Θ`;
+- nella ricorsione, ricordare che una chiamata precedente non scompare: resta sospesa e riprende dopo il ritorno della chiamata più interna.
 
 Prossimo esercizio da proporre:
 
-**02_complessita/esercizio_12.md — Analizzare semplici ricorrenze e introdurre la complessità degli algoritmi ricorsivi.**
+**02_complessita/esercizio_13.md — Consolidare la pila delle chiamate e il riconoscimento di ricorrenze lineari, logaritmiche ed esponenziali.**
 
 Cartella corrente:
 
