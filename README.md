@@ -267,7 +267,7 @@ Il push dell'esercizio e l'aggiornamento del README fanno parte della stessa fas
 
 ## Punto attuale del percorso
 
-**Ultimo esercizio completato: `03_array_memoria_ricerca/esercizio_01.md`**
+**Ultimo esercizio completato: `03_array_memoria_ricerca/esercizio_02.md`**
 
 Argomento corrente:
 
@@ -356,11 +356,13 @@ Concetti acquisiti finora nel modulo 03:
 - visita completa di una lista come operazione `Theta(n)`;
 - ricerca del massimo tramite scansione lineare come `Theta(n)`;
 - introduzione alla ricerca lineare;
-- riconoscimento del caso migliore `Theta(1)` e del caso peggiore `Theta(n)` nella ricerca lineare.
+- riconoscimento del caso migliore `Theta(1)` e del caso peggiore `Theta(n)` nella ricerca lineare;
+- distinzione tra array classico e lista Python;
+- comprensione della maggiore flessibilità della lista Python rispetto all'array classico;
+- consolidamento della differenza tra accesso diretto tramite indice e ricerca sequenziale di un valore.
 
 Concetti da acquisire o consolidare nel modulo 03:
 
-- distinguere in modo più preciso array classico e lista Python;
 - approfondire ricerca lineare e ricerca binaria;
 - introdurre memoria, stack, heap e puntatori a livello previsto dal corso;
 - collegare accesso, visita e ricerca alle rispettive complessità.
@@ -379,7 +381,7 @@ Punti emersi da ricordare:
 
 Prossimo esercizio da proporre:
 
-**03_array_memoria_ricerca/esercizio_02.md — Confrontare array classico e lista Python e consolidare accesso, visita e ricerca lineare.**
+**03_array_memoria_ricerca/esercizio_03.md — Introdurre la ricerca binaria e confrontarla con la ricerca lineare.**
 
 Cartella corrente:
 
