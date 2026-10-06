@@ -267,7 +267,7 @@ Il push dell'esercizio e l'aggiornamento del README fanno parte della stessa fas
 
 ## Punto attuale del percorso
 
-**Ultimo esercizio completato: `02_complessita/esercizio_15.md`**
+**Ultimo esercizio completato: `03_array_memoria_ricerca/esercizio_01.md`**
 
 Argomento corrente:
 
@@ -348,13 +348,22 @@ Concetti acquisiti finora nel modulo 02:
 - riconoscimento del termine dominante in funzioni come `7n^2 + 3n + 20`, `4n + 100` e `3n log n + 5n`;
 - ordinamento corretto delle principali classi: `Theta(1) < Theta(log n) < Theta(n) < Theta(n log n) < Theta(n^2) < Theta(2^n)`.
 
-Concetti da acquisire o consolidare nel modulo 02:
+Concetti acquisiti finora nel modulo 03:
 
 - consolidare il confronto tra diversi ordini di crescita;
 - consolidare il confronto tra `Θ(n)`, `Θ(log n)`, `Θ(n log n)` e `Θ(n²)`;
-- mantenere attenzione sulla differenza tra `n/2` iterazioni e dimezzamento ripetuto;
-- mantenere attenzione sulla distinzione tra `O`, `Ω` e `Θ`;
-- iniziare il modulo 03 con array, accesso per indice e visita.
+- accesso tramite indice in una lista Python come operazione `Theta(1)`;
+- visita completa di una lista come operazione `Theta(n)`;
+- ricerca del massimo tramite scansione lineare come `Theta(n)`;
+- introduzione alla ricerca lineare;
+- riconoscimento del caso migliore `Theta(1)` e del caso peggiore `Theta(n)` nella ricerca lineare.
+
+Concetti da acquisire o consolidare nel modulo 03:
+
+- distinguere in modo più preciso array classico e lista Python;
+- approfondire ricerca lineare e ricerca binaria;
+- introdurre memoria, stack, heap e puntatori a livello previsto dal corso;
+- collegare accesso, visita e ricerca alle rispettive complessità.
 - consolidare la traduzione degli algoritmi in Python;
 - usare Python per esercitare cicli, condizioni, funzioni e strutture dati solo quando collegati agli argomenti del corso.
 
@@ -370,7 +379,7 @@ Punti emersi da ricordare:
 
 Prossimo esercizio da proporre:
 
-**03_array_memoria_ricerca/esercizio_01.md — Introdurre array/lista Python, accesso tramite indice e visita lineare.**
+**03_array_memoria_ricerca/esercizio_02.md — Confrontare array classico e lista Python e consolidare accesso, visita e ricerca lineare.**
 
 Cartella corrente:
 
