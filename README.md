@@ -267,7 +267,7 @@ Il push dell'esercizio e l'aggiornamento del README fanno parte della stessa fas
 
 ## Punto attuale del percorso
 
-**Ultimo esercizio completato: `03_array_memoria_ricerca/esercizio_03.md`**
+**Ultimo esercizio completato: `03_array_memoria_ricerca/esercizio_04.py`**
 
 Argomento corrente:
 
@@ -363,11 +363,15 @@ Concetti acquisiti finora nel modulo 03:
 - comprensione del requisito dell'ordinamento per la ricerca binaria;
 - simulazione manuale della ricerca binaria scegliendo la metà sinistra o destra;
 - riconoscimento della ricerca binaria come `Theta(log n)`;
-- confronto tra ricerca lineare `Theta(n)` nel caso peggiore e ricerca binaria `Theta(log n)`.
+- confronto tra ricerca lineare `Theta(n)` nel caso peggiore e ricerca binaria `Theta(log n)`;
+- implementazione autonoma in Python di una ricerca lineare;
+- comprensione della differenza tra valore e indice in un ciclo `for`;
+- implementazione guidata e poi corretta autonomamente della ricerca binaria con `sinistra`, `destra` e `centro`;
+- comprensione del ricalcolo del centro a ogni iterazione e dell'aggiornamento dei confini di ricerca.
 
 Concetti da acquisire o consolidare nel modulo 03:
 
-- consolidare ricerca lineare e ricerca binaria con implementazione Python;
+- consolidare ulteriormente la ricerca binaria con esecuzione manuale e casi limite;
 - introdurre memoria, stack, heap e puntatori a livello previsto dal corso;
 - collegare accesso, visita e ricerca alle rispettive complessità.
 - consolidare la traduzione degli algoritmi in Python;
@@ -385,7 +389,7 @@ Punti emersi da ricordare:
 
 Prossimo esercizio da proporre:
 
-**03_array_memoria_ricerca/esercizio_04.py — Implementare in Python una semplice ricerca lineare e confrontarla con la ricerca binaria.**
+**03_array_memoria_ricerca/esercizio_05.md — Consolidare la ricerca binaria con casi limite e introdurre il collegamento con la memoria.**
 
 Cartella corrente:
 
