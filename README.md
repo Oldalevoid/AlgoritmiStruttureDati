@@ -267,7 +267,7 @@ Il push dell'esercizio e l'aggiornamento del README fanno parte della stessa fas
 
 ## Punto attuale del percorso
 
-**Ultimo esercizio completato: `03_array_memoria_ricerca/esercizio_05.md`**
+**Ultimo esercizio completato: `03_array_memoria_ricerca/esercizio_06.md`**
 
 Argomento corrente:
 
@@ -373,11 +373,14 @@ Concetti acquisiti finora nel modulo 03:
 - collegamento dello stack alle chiamate di funzione e alla ricorsione;
 - comprensione del puntatore come variabile che contiene un indirizzo di memoria;
 - distinzione tra `p`, `&x` e `*p`;
-- comprensione introduttiva di allocazione dinamica con `new`, liberazione con `delete` e memory leak.
+- comprensione introduttiva di allocazione dinamica con `new`, liberazione con `delete` e memory leak;
+- consolidamento della distinzione tra puntatore, indirizzo e valore dereferenziato;
+- comprensione della differenza tra cambiare il puntatore (`p = &y`) e cambiare il valore puntato (`*p = 50`);
+- riconoscimento del memory leak come memoria dinamica non correttamente liberata.
 
 Concetti da acquisire o consolidare nel modulo 03:
 
-- consolidare memoria, stack, heap e puntatori con esempi e domande di verifica;
+- consolidare il modulo 03 con una breve verifica mista su array, ricerca e memoria;
 - introdurre memoria, stack, heap e puntatori a livello previsto dal corso;
 - collegare accesso, visita e ricerca alle rispettive complessità.
 - consolidare la traduzione degli algoritmi in Python;
@@ -395,7 +398,7 @@ Punti emersi da ricordare:
 
 Prossimo esercizio da proporre:
 
-**03_array_memoria_ricerca/esercizio_06.md — Consolidare stack, heap, puntatori, dereferenziazione e allocazione dinamica.**
+**03_array_memoria_ricerca/esercizio_07.md — Verifica mista del modulo 03 su array, ricerca, memoria e puntatori.**
 
 Cartella corrente:
 
