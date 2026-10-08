@@ -267,7 +267,7 @@ Il push dell'esercizio e l'aggiornamento del README fanno parte della stessa fas
 
 ## Punto attuale del percorso
 
-**Ultimo esercizio completato: `03_array_memoria_ricerca/esercizio_07.md`**
+**Ultimo esercizio completato: `04_ordinamenti/esercizio_01.md`**
 
 Argomento corrente:
 
@@ -383,7 +383,7 @@ Concetti acquisiti finora nel modulo 03:
 
 Concetti da acquisire o consolidare nel modulo 03:
 
-- iniziare il modulo 04 con i concetti generali di ordinamento, confronto, scambio, stabilità e in-place.
+- consolidare Bubble Sort con simulazione completa, pseudocodice e implementazione Python.
 - introdurre memoria, stack, heap e puntatori a livello previsto dal corso;
 - collegare accesso, visita e ricerca alle rispettive complessità.
 - consolidare la traduzione degli algoritmi in Python;
@@ -401,7 +401,7 @@ Punti emersi da ricordare:
 
 Prossimo esercizio da proporre:
 
-**04_ordinamenti/esercizio_01.md — Introduzione al problema dell'ordinamento e ai concetti di confronto, scambio, stabilità e in-place.**
+**04_ordinamenti/esercizio_02.md — Bubble Sort: simulazione completa, pseudocodice e implementazione Python.**
 
 Cartella corrente:
 
