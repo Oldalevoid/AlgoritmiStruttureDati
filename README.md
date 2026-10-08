@@ -267,7 +267,7 @@ Il push dell'esercizio e l'aggiornamento del README fanno parte della stessa fas
 
 ## Punto attuale del percorso
 
-**Ultimo esercizio completato: `03_array_memoria_ricerca/esercizio_04.py`**
+**Ultimo esercizio completato: `03_array_memoria_ricerca/esercizio_05.md`**
 
 Argomento corrente:
 
@@ -367,11 +367,17 @@ Concetti acquisiti finora nel modulo 03:
 - implementazione autonoma in Python di una ricerca lineare;
 - comprensione della differenza tra valore e indice in un ciclo `for`;
 - implementazione guidata e poi corretta autonomamente della ricerca binaria con `sinistra`, `destra` e `centro`;
-- comprensione del ricalcolo del centro a ogni iterazione e dell'aggiornamento dei confini di ricerca.
+- comprensione del ricalcolo del centro a ogni iterazione e dell'aggiornamento dei confini di ricerca;
+- consolidamento dei casi limite della ricerca binaria, incluso il caso `sinistra == destra` e la terminazione con `sinistra > destra`;
+- distinzione introduttiva tra stack e heap;
+- collegamento dello stack alle chiamate di funzione e alla ricorsione;
+- comprensione del puntatore come variabile che contiene un indirizzo di memoria;
+- distinzione tra `p`, `&x` e `*p`;
+- comprensione introduttiva di allocazione dinamica con `new`, liberazione con `delete` e memory leak.
 
 Concetti da acquisire o consolidare nel modulo 03:
 
-- consolidare ulteriormente la ricerca binaria con esecuzione manuale e casi limite;
+- consolidare memoria, stack, heap e puntatori con esempi e domande di verifica;
 - introdurre memoria, stack, heap e puntatori a livello previsto dal corso;
 - collegare accesso, visita e ricerca alle rispettive complessità.
 - consolidare la traduzione degli algoritmi in Python;
@@ -389,7 +395,7 @@ Punti emersi da ricordare:
 
 Prossimo esercizio da proporre:
 
-**03_array_memoria_ricerca/esercizio_05.md — Consolidare la ricerca binaria con casi limite e introdurre il collegamento con la memoria.**
+**03_array_memoria_ricerca/esercizio_06.md — Consolidare stack, heap, puntatori, dereferenziazione e allocazione dinamica.**
 
 Cartella corrente:
 
