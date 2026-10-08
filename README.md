@@ -267,17 +267,19 @@ Il push dell'esercizio e l'aggiornamento del README fanno parte della stessa fas
 
 ## Punto attuale del percorso
 
-**Ultimo esercizio completato: `03_array_memoria_ricerca/esercizio_06.md`**
+**Ultimo esercizio completato: `03_array_memoria_ricerca/esercizio_07.md`**
 
 Argomento corrente:
 
-**03 — Array, memoria e ricerca**
+**04 — Ordinamenti**
 
 Stato dei moduli precedenti:
 
 **01 — Fondamenti degli algoritmi: completato.**
 
 **02 — Complessità: completato.**
+
+**03 — Array, memoria e ricerca: completato.**
 
 Concetti acquisiti nel modulo 01:
 
@@ -376,11 +378,12 @@ Concetti acquisiti finora nel modulo 03:
 - comprensione introduttiva di allocazione dinamica con `new`, liberazione con `delete` e memory leak;
 - consolidamento della distinzione tra puntatore, indirizzo e valore dereferenziato;
 - comprensione della differenza tra cambiare il puntatore (`p = &y`) e cambiare il valore puntato (`*p = 50`);
-- riconoscimento del memory leak come memoria dinamica non correttamente liberata.
+- riconoscimento del memory leak come memoria dinamica non correttamente liberata;
+- verifica mista superata sui concetti fondamentali del modulo 03.
 
 Concetti da acquisire o consolidare nel modulo 03:
 
-- consolidare il modulo 03 con una breve verifica mista su array, ricerca e memoria;
+- iniziare il modulo 04 con i concetti generali di ordinamento, confronto, scambio, stabilità e in-place.
 - introdurre memoria, stack, heap e puntatori a livello previsto dal corso;
 - collegare accesso, visita e ricerca alle rispettive complessità.
 - consolidare la traduzione degli algoritmi in Python;
@@ -398,11 +401,11 @@ Punti emersi da ricordare:
 
 Prossimo esercizio da proporre:
 
-**03_array_memoria_ricerca/esercizio_07.md — Verifica mista del modulo 03 su array, ricerca, memoria e puntatori.**
+**04_ordinamenti/esercizio_01.md — Introduzione al problema dell'ordinamento e ai concetti di confronto, scambio, stabilità e in-place.**
 
 Cartella corrente:
 
-`03_array_memoria_ricerca/`
+`04_ordinamenti/`
 
 ## Autosufficienza della repository
 
