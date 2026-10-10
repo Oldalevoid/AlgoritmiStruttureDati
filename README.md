@@ -267,7 +267,7 @@ Il push dell'esercizio e l'aggiornamento del README fanno parte della stessa fas
 
 ## Punto attuale del percorso
 
-**Ultimo esercizio completato: `04_ordinamenti/esercizio_02.md`**
+**Ultimo esercizio completato: `04_ordinamenti/esercizio_03.md`**
 
 Argomento corrente:
 
@@ -383,7 +383,7 @@ Concetti acquisiti finora nel modulo 03:
 
 Concetti da acquisire o consolidare nel modulo 03:
 
-- introdurre Selection Sort e confrontarlo con Bubble Sort.
+- introdurre Insertion Sort e confrontarlo con Bubble Sort e Selection Sort.
 - introdurre memoria, stack, heap e puntatori a livello previsto dal corso;
 - collegare accesso, visita e ricerca alle rispettive complessità.
 - consolidare la traduzione degli algoritmi in Python;
@@ -401,7 +401,7 @@ Punti emersi da ricordare:
 
 Prossimo esercizio da proporre:
 
-**04_ordinamenti/esercizio_03.md — Selection Sort: idea, simulazione, complessità e confronto con Bubble Sort.**
+**04_ordinamenti/esercizio_04.md — Insertion Sort: inserimento progressivo, simulazione, complessità e implementazione Python.**
 
 Cartella corrente:
 
