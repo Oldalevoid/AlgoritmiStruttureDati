@@ -169,6 +169,24 @@ graph TD
 
 ---
 
+## Esercizio 14 — Che cosa succede aggiungendo un arco a un albero?
+**DESCRIZIONE.** Partendo dall'albero con archi A—B, A—C, B—D, B—E, C—F, decidere se aggiungere E—F produce ancora un albero o un ciclo e motivare la risposta.
+
+```mermaid
+graph TD
+    A((A)) --- B((B))
+    A --- C((C))
+    B --- D((D))
+    B --- E((E))
+    C --- F((F))
+    E --- F
+    linkStyle 5 stroke:#dc2626,stroke-width:4px
+```
+
+**RISPOSTA DELLO STUDENTE:** «diventerebbe un grafo con un ciclo perché c'è una connessione tra due figli di padri diversi». **ESITO:** corretta nella conclusione, motivazione da precisare. **CORREZIONE:** la causa non è l'avere genitori diversi; in un albero esiste già un solo cammino semplice tra E ed F (E—B—A—C—F). Il nuovo arco E—F lo chiude formando il ciclo E—B—A—C—F—E. Aggiungere un arco tra due vertici diversi di un albero produce esattamente un ciclo.
+
+**COSA HO IMPARATO:** riconoscimento del ciclo quando si aggiunge un arco a un albero; distinzione tra parentela dei nodi e esistenza di un cammino preesistente. **ARGOMENTO D'ESAME:** alberi come grafi connessi e aciclici; cicli.
+
 ## COSA HO IMPARATO IN QUESTO ESERCIZIO
 Vertici, archi e grado; orientamento; grado entrante/uscente; cammini e cicli; DAG; pesi; lettura di liste e matrici di adiacenza; grafi sparsi/densi e risparmio di memoria. Da consolidare tramite esercizi pratici: BFS, DFS e implementazioni Python.
 
