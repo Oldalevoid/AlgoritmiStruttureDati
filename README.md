@@ -269,7 +269,7 @@ Il push dell'esercizio e l'aggiornamento del README fanno parte della stessa fas
 
 **Ultimo esercizio completato nella sequenza ordinamenti: `04_ordinamenti/esercizio_04.md`**
 
-**Ultima sessione effettiva: `07_grafi/esercizi_guidati.md` (domande 1–12 e domanda 14 sull'albero completate; domanda 13 BFS ancora aperta).**
+**Ultima sessione effettiva: `07_grafi/esercizi_guidati.md` (domande 1–12 e domanda 14 sull'albero completate; domanda 13 BFS tentata, corretta dall'AI; consolidamento FIFO da svolgere).**
 
 Argomento corrente:
 
@@ -403,7 +403,7 @@ Punti emersi da ricordare:
 
 Prossimo esercizio da proporre:
 
-**07_grafi/esercizi_guidati.md — Domanda 13: visita BFS manuale da A (ordine dei vertici).**
+**07_grafi/esercizi_guidati.md — Verifica di consolidamento BFS: simulare i contenuti della coda FIFO dopo l'esplorazione di A.**
 
 **Da riprendere successivamente:** `04_ordinamenti/esercizio_05.md` (verifica mista degli ordinamenti, ancora non svolta).
 
@@ -417,7 +417,7 @@ Il percorso è passato ai grafi su richiesta dello studente, senza completare pr
 
 **Acquisito con risposte corrette:** vertici e archi, gradi, orientamento, cammini, cicli/DAG, confronto tra pesi, accesso a lista/matrice, definizione di grafo sparso e scelta di lista di adiacenza per risparmiare memoria. Verificato anche che aggiungere un arco tra E e F nell'albero crea un ciclo; precisata la motivazione (cammino preesistente, non genitori differenti). Inizialmente è stata scelta erroneamente la matrice; dopo la spiegazione lo studente ha risposto correttamente a due casi analoghi.
 
-**Non ancora verificato:** esecuzione manuale BFS, coda FIFO e implementazioni di visita. Non registrare questi contenuti come completati.
+**Da consolidare:** prima risposta BFS errata (`A B D B E B A C F`), confusione tra cammino con ritorni e visita per livelli. L'AI ha spiegato `A B C D E F`, ma manca una nuova verifica autonoma sulla coda FIFO; implementazioni di visita ancora da affrontare. Non registrare questi contenuti come completati.
 
 ## Autosufficienza della repository
 
