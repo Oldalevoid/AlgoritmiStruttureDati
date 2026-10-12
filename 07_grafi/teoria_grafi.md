@@ -1,30 +1,168 @@
-# Grafi — appunti ordinati
+# Grafi — Appunti illustrati
 
-## 1. Definizione
-Un grafo è una coppia **G=(V,E)** con V insieme dei vertici (nodi) ed E insieme degli archi (collegamenti). Esempio: una rete informatica, con computer come vertici e connessioni come archi.
+> Lezione del 12 ottobre 2026. Diagrammi Mermaid incorporati: GitHub li visualizza direttamente nel Markdown. Gli esercizi effettivamente svolti sono in [esercizi_guidati.md](esercizi_guidati.md). BFS è stata introdotta, ma la sua visita manuale è ancora da svolgere.
 
-In un grafo **non orientato**, l'arco {A,B} consente di muoversi in entrambi i versi. In uno **orientato**, A→B non implica B→A: utile per strade a senso unico.
+## Indice
+1. [Che cos'è un grafo](#1-che-cosè-un-grafo)
+2. [Orientati e non orientati](#2-grafi-orientati-e-non-orientati)
+3. [Grado di un vertice](#3-grado-di-un-vertice)
+4. [Cammini](#4-cammini)
+5. [Cicli e DAG](#5-cicli-e-dag)
+6. [Grafi pesati](#6-grafi-pesati)
+7. [Liste di adiacenza](#7-liste-di-adiacenza)
+8. [Matrici di adiacenza](#8-matrici-di-adiacenza)
+9. [Grafi sparsi e densi](#9-grafi-sparsi-e-densi)
+10. [BFS e DFS: introduzione](#10-bfs-e-dfs-introduzione)
+11. [Riepilogo e prossimi passi](#11-riepilogo-e-prossimi-passi)
 
-## 2. Grado
-- Non orientato: grado deg(v) = numero di archi incidenti a v (un cappio conta due volte).
-- Orientato: grado entrante deg⁻(v) = numero di archi che arrivano; grado uscente deg⁺(v) = numero di archi che partono.
+## 1. Che cos'è un grafo
 
-Esempio: A→B, C→B, D→B, B→C: deg⁻(B)=3 e deg⁺(B)=1.
+Un **grafo** è una struttura composta da **vertici** (o nodi) e **archi** (collegamenti). Formalmente: **G = (V, E)**, dove V è l'insieme dei vertici ed E quello degli archi. Può rappresentare reti di computer, città e strade, dipendenze tra attività o relazioni.
 
-## 3. Cammini e cicli
-Un cammino percorre una sequenza di archi adiacenti; nei grafi orientati ne rispetta il verso. La **lunghezza** di un cammino non pesato è il numero di archi. Un *cammino semplice* non ripete vertici.
+Nel grafo seguente V = {A, B, C, D, E}; i collegamenti sono A—B, B—C, A—D, B—D, C—E, D—E.
 
-Con A→B, B→C, B→D, C→D, i due cammini semplici da A a D sono A→B→D (lunghezza 2) e A→B→C→D (lunghezza 3).
+```mermaid
+graph LR
+    A((A)) --- B((B))
+    B --- C((C))
+    A --- D((D))
+    B --- D
+    C --- E((E))
+    D --- E
+```
 
-Un **ciclo diretto** torna al vertice di partenza rispettando le frecce (senza ripetere altri vertici). A→B→C→A è un ciclo; eliminando C→A, nel grafo considerato non rimangono cicli. Un grafo diretto aciclico è detto **DAG**.
+Il vertice B è collegato direttamente ad A, C e D.
 
-## 4. Grafi pesati
-A ogni arco è associato un peso: distanza, tempo, costo, latenza. Se A—B pesa 10, A—C pesa 4 e C—B pesa 3, passare da C costa 4+3=7, inferiore all'arco diretto di peso 10. Il problema del **cammino minimo** sarà studiato formalmente più avanti (Dijkstra funziona con pesi non negativi).
+## 2. Grafi orientati e non orientati
 
-## 5. Rappresentazioni
+Un **grafo non orientato** consente di percorrere l'arco in entrambe le direzioni; un **grafo orientato** associa un verso all'arco. Una strada a senso unico richiede quindi un grafo orientato.
 
-### Lista di adiacenza
-Ogni vertice contiene i suoi vicini.
+| Non orientato | Orientato |
+|---|---|
+| A—B vale nei due versi | A→B non implica B→A |
+| Arco come coppia non ordinata | Arco come coppia ordinata |
+
+```mermaid
+graph LR
+    subgraph "Non orientato"
+      U_A((A)) --- U_B((B))
+    end
+    subgraph "Orientato"
+      O_A((A)) --> O_B((B))
+    end
+```
+
+## 3. Grado di un vertice
+
+In un grafo **non orientato**, il grado di un vertice è il numero di archi incidenti (un cappio conta due volte). Nel primo esempio, **deg(B) = 3** e **deg(D) = 3**.
+
+Nel grafo **orientato** distinguiamo:
+- **grado entrante** deg⁻(v): archi diretti *verso* v;
+- **grado uscente** deg⁺(v): archi che *partono* da v.
+
+```mermaid
+graph TD
+    A((A)) --> B((B))
+    C((C)) --> B
+    D((D)) --> B
+    B --> C
+    style B fill:#dbeafe,stroke:#2563eb,color:#172554,stroke-width:3px
+```
+
+Per B: **deg⁻(B) = 3**, **deg⁺(B) = 1**. Notare che B→C e C→B sono *due archi differenti*.
+
+## 4. Cammini
+
+Un cammino è una sequenza di vertici collegati consecutivamente da archi; in un grafo orientato bisogna seguire le frecce. La **lunghezza di un cammino non pesato** è il numero degli archi. Un **cammino semplice** non ripete vertici.
+
+```mermaid
+graph TD
+    A((A)) --> B((B))
+    B --> C((C))
+    B --> D((D))
+    C --> D
+```
+
+I due **cammini semplici** da A a D sono:
+1. **A→B→D**, lunghezza **2**;
+2. **A→B→C→D**, lunghezza **3**.
+
+### Evidenziazione del primo cammino
+
+```mermaid
+graph TD
+    A((A)) --> B((B))
+    B --> C((C))
+    B --> D((D))
+    C --> D
+    linkStyle 0,2 stroke:#16a34a,stroke-width:4px
+```
+
+### Evidenziazione del secondo cammino
+
+```mermaid
+graph TD
+    A((A)) --> B((B))
+    B --> C((C))
+    B --> D((D))
+    C --> D
+    linkStyle 0,1,3 stroke:#16a34a,stroke-width:4px
+```
+
+## 5. Cicli e DAG
+
+Un **ciclo diretto** torna al vertice iniziale seguendo il verso degli archi, senza ripetere altri vertici. Un **DAG** (*Directed Acyclic Graph*) è un grafo diretto senza cicli.
+
+### Con ciclo A→B→C→A
+
+```mermaid
+graph LR
+    A((A)) --> B((B))
+    B --> C((C))
+    C --> A
+    B --> D((D))
+    linkStyle 0,1,2 stroke:#dc2626,stroke-width:3px
+```
+
+### Dopo la rimozione di C→A: DAG
+
+```mermaid
+graph LR
+    A((A)) --> B((B))
+    B --> C((C))
+    B --> D((D))
+```
+
+Nel secondo disegno non esiste più un percorso diretto che ritorni al punto di partenza.
+
+## 6. Grafi pesati
+
+Un **peso** associato a un arco può rappresentare distanza, costo, tempo o latenza. Il peso di un percorso è la **somma dei pesi degli archi** attraversati.
+
+```mermaid
+graph TD
+    A((A)) ---|10| B((B))
+    A ---|4| C((C))
+    C ---|3| B
+    linkStyle 1,2 stroke:#16a34a,stroke-width:4px
+```
+
+Da A a B:
+- diretto: **10**;
+- passando da C: **4 + 3 = 7**.
+
+Il percorso attraverso C ha peso minore. Questo anticipa il problema dei **cammini minimi**: in seguito studieremo Dijkstra (con pesi non negativi), Bellman-Ford e altre tecniche.
+
+## 7. Liste di adiacenza
+
+Una **lista di adiacenza** associa a ciascun vertice l'elenco dei propri vicini.
+
+```mermaid
+graph TD
+    A((A)) --- B((B))
+    A --- D((D))
+    B --- C((C))
+```
 
 ```python
 grafo = {
@@ -33,46 +171,113 @@ grafo = {
     "C": ["B"],
     "D": ["A"],
 }
+
 print(grafo["B"])  # ['A', 'C']
 ```
 
-Memoria: **O(V+E)** per grafi rappresentati con le liste dei vicini (nel caso non orientato ogni arco compare in due liste).
+Le chiavi del dizionario sono i vertici; le liste contengono i vicini. Per grafi non orientati ogni arco è registrato nei due elenchi corrispondenti. La complessità spaziale è **O(V + E)**.
 
-### Matrice di adiacenza
-Una matrice V×V con 1 se un arco esiste e 0 altrimenti. Per gli archi non orientati A—B e B—C, nell'ordine A,B,C:
+## 8. Matrici di adiacenza
 
-|   | A | B | C |
-|---|---|---|---|
-| A | 0 | 1 | 0 |
-| B | 1 | 0 | 1 |
-| C | 0 | 1 | 0 |
+In una **matrice di adiacenza**, righe e colonne rappresentano i vertici. Nel caso semplice non pesato, 1 indica la presenza di un arco e 0 l'assenza.
 
-```python
-matrice = [[0, 1, 0], [1, 0, 1], [0, 1, 0]]
-print(matrice[0][2])  # 0: nessun arco diretto A—C
+```mermaid
+graph LR
+    A((A)) --- B((B))
+    B --- C((C))
 ```
 
-Memoria: **O(V²)**, anche se quasi tutti i valori sono zero. Verificare un arco con accesso alla cella richiede O(1), mentre la ricerca di un vicino in una lista tradizionale richiede tempo proporzionale al numero dei vicini, salvo strutture ausiliarie.
+|   | A | B | C |
+|---|---:|---:|---:|
+| **A** | 0 | 1 | 0 |
+| **B** | 1 | 0 | 1 |
+| **C** | 0 | 1 | 0 |
 
-## 6. Sparsi e densi
-- **Sparso**: relativamente pochi archi rispetto a quelli possibili; generalmente conveniente una lista di adiacenza.
-- **Denso**: molti archi rispetto a quelli possibili; una matrice può essere vantaggiosa per i test rapidi di adiacenza.
+```python
+matrice = [
+    [0, 1, 0],
+    [1, 0, 1],
+    [0, 1, 0],
+]
+print(matrice[0][2])  # 0: non esiste arco diretto A-C
+```
 
-In un grafo semplice non orientato il massimo è **V(V−1)/2**. Con 100 vertici il massimo è 4.950; 120 archi corrispondono a circa il 2,42%, un grafo sparso. Non esiste una soglia percentuale universale.
+Gli indici Python iniziano da 0: riga 0 = A, colonna 2 = C. La matrice occupa **O(V²)** spazio anche con pochi archi. Il controllo della presenza di un arco mediante accesso a una cella richiede **O(1)**.
 
-Con 10.000 vertici, una matrice contiene 100.000.000 celle, mentre la lista di adiacenza registra solo vertici e archi effettivi (es. 15.000 archi). La quantità di byte dipende dall'implementazione concreta.
+## 9. Grafi sparsi e densi
 
-## 7. BFS e DFS — solo introduzione
-- **BFS**, visita in ampiezza: esplora prima i vertici alla minima distanza in numero di archi dalla sorgente. Tipicamente usa una **coda FIFO**.
-- **DFS**, visita in profondità: segue un ramo finché possibile, poi torna indietro. Tipicamente usa ricorsione o una **pila**.
+- **Sparso**: pochi archi rispetto al massimo possibile.
+- **Denso**: molti archi rispetto al massimo possibile.
+- Per un grafo **semplice, non orientato**, il numero massimo di archi è **V(V−1)/2**. Non esiste una soglia percentuale universale.
 
-BFS è stata introdotta con l'esempio A–B, A–C, B–D, B–E, C–F. Non è ancora stata eseguita autonomamente una visita completa; non segnare BFS come acquisita.
+### Grafo sparso (6 vertici e 5 archi)
 
-## Checklist
-- [x] Definizioni, gradi, orientamento, cammini, cicli e DAG
-- [x] Pesi e confronto di cammini
-- [x] Liste vs matrici e grafi sparsi vs densi
-- [ ] BFS manuale e coda
-- [ ] BFS in Python
-- [ ] DFS e confronti
-- [ ] Algoritmi avanzati del modulo
+```mermaid
+graph LR
+    A((A)) --- B((B))
+    B --- C((C))
+    C --- D((D))
+    D --- E((E))
+    E --- F((F))
+```
+
+### Grafo denso (5 vertici, tutti collegati tra loro: 10 archi)
+
+```mermaid
+graph LR
+    A((A)) --- B((B))
+    A --- C((C))
+    A --- D((D))
+    A --- E((E))
+    B --- C
+    B --- D
+    B --- E
+    C --- D
+    C --- E
+    D --- E
+```
+
+Con **100 vertici**, il massimo è **4.950 archi**; averne **120** significa circa **2,42%**: grafo sparso.
+
+Con **10.000 vertici**, una matrice contiene **100.000.000 celle**, indipendentemente dagli archi presenti. Con soli **15.000 archi**, la lista di adiacenza è normalmente molto più economica in memoria.
+
+| Aspetto | Lista di adiacenza | Matrice di adiacenza |
+|---|---|---|
+| Memoria | O(V+E) | O(V²) |
+| Grafi sparsi | In genere preferibile | Celle inutilizzate |
+| Verifica arco | O(grado), con lista standard | O(1) |
+| Elenco dei vicini | Diretto | Scansione di una riga, O(V) |
+
+La convenienza effettiva può dipendere dall'implementazione e dalle operazioni più frequenti.
+
+## 10. BFS e DFS: introduzione
+
+- **BFS** (*Breadth-First Search*): visita prima i vertici a distanza minima, misurata in numero di archi; in genere usa una **coda FIFO**.
+- **DFS** (*Depth-First Search*): esplora un ramo in profondità prima di tornare indietro; può usare ricorsione o una **pila**.
+
+### Grafo dell'esercizio BFS ancora aperto
+
+```mermaid
+graph TD
+    A((A)) --- B((B))
+    A --- C((C))
+    B --- D((D))
+    B --- E((E))
+    C --- F((F))
+    style A fill:#dbeafe,stroke:#2563eb,color:#172554,stroke-width:3px
+```
+
+I livelli rispetto ad A sono:
+- livello 0: A;
+- livello 1: B e C;
+- livello 2: D, E e F.
+
+**Attenzione:** questo schema introduce la BFS ma la risposta alla **domanda 13** (ordine completo di visita con i vicini da sinistra a destra) **non è stata ancora fornita dallo studente**. Va proposta senza anticipare la soluzione.
+
+## 11. Riepilogo e prossimi passi
+
+**Acquisito e verificato con risposte:** vertici, archi, gradi, orientamento, cammini semplici, cicli, DAG, pesi, accesso alle rappresentazioni, grafi sparsi e densi, confronto della memoria. L'errore iniziale sulla matrice per grafi sparsi è stato corretto con verifiche successive.
+
+**Da fare:** visita BFS a mano (domanda 13), poi funzionamento della coda, pseudocodice, implementazione Python, DFS e algoritmi avanzati del programma. Non attribuire allo studente implementazioni che non ha scritto.
+
+**Collegamenti:** [Esercizi svolti](esercizi_guidati.md) · [Esempi Python](esempi_grafi.py) · [Indice modulo](README.md) · [Programma](../PROGRAMMA_CORSO.md).
