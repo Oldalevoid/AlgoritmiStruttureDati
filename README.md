@@ -435,6 +435,21 @@ Il curriculum stabile è in `PROGRAMMA_CORSO.md`.
 Le regole operative sono in `GUIDA_AI.md`.  
 Questo README contiene lo stato aggiornato del percorso.
 
+## Standard obbligatorio dei file e dei push didattici
+
+**Questa sezione è una regola permanente della repository, applicabile a tutti i moduli e a qualunque AI che prosegua il corso.** Non basta registrare la risposta: gli appunti devono essere **autosufficienti, completi, ordinati e visuali**.
+
+1. **Formato:** Markdown (`.md`) per teoria, definizioni, formule LaTeX, tabelle, pseudocodice, svolgimenti e spiegazioni; Python (`.py`) per codice eseguibile. I file devono essere leggibili direttamente su GitHub.
+2. **Diagrammi obbligatori quando la spiegazione ha una struttura visuale:** usare blocchi `mermaid` nel Markdown, con nodi e archi etichettati, frecce per i grafi orientati e pesi visibili per quelli pesati. Usarli anche **negli esercizi guidati**, non soltanto nella teoria. Applicare lo stesso principio a flowchart, alberi, code, pile, array e altri concetti visuali. Quando Mermaid non è sufficiente, inserire file SVG/PNG versionati e collegamenti Markdown. Una figura deve rappresentare esattamente la consegna; non modificare silenziosamente il grafo tra domanda e soluzione.
+3. **Teoria completa:** definizione → diagramma leggibile → intuizione → esempio commentato → eventuale formula/complessità → codice solo se pertinente. Non lasciare rimandi a figure visibili esclusivamente nella chat.
+4. **Esercizi guidati completi:** per ogni domanda conservare **consegna originale, tutti i dati, diagramma o tabella pertinente, risposta dello studente, esito, correzione/spiegazione** e complessità quando utile. Evidenziare gli errori e le successive correzioni. Separare chiaramente svolgimenti autonomi, esempi forniti dall'AI ed esercizi ancora aperti; non attribuire allo studente risposte o programmi non prodotti.
+5. **Progressione:** una domanda alla volta; per domande ancora aperte mostrare consegna e schema, **senza anticipare la soluzione**. Collegare teoria, esercizi e script tramite link relativi.
+6. **Struttura:** un `README.md` per modulo come indice e stato; file tematici per teoria; file di esercizi numerati o registro illustrato; codice Python separato. Titoli descrittivi, indice per file lunghi, diagrammi accanto alla sezione cui si riferiscono.
+7. **Ogni push:** aggiornare contestualmente il `README.md` principale con ultima attività, esercizi completati, difficoltà, domanda successiva e link ai nuovi materiali. Mantenere anche `GUIDA_AI.md` coerente con questo standard. Verificare che file e diagrammi siano effettivamente presenti su GitHub. Non dichiarare push riusciti senza conferma del commit.
+8. **Fedeltà:** non cancellare materiale precedente, non dichiarare completato quanto è soltanto stato spiegato, e distinguere eventuali approssimazioni didattiche dalla definizione formale.
+
+**Esempio di riferimento già pubblicato:** [teoria illustrata dei grafi](07_grafi/teoria_grafi.md) e [esercizi guidati illustrati dei grafi](07_grafi/esercizi_guidati.md).
+
 ## Principio guida
 
 La repository è la memoria didattica permanente del percorso: qualsiasi AI che la analizzi deve poter capire **cosa è stato studiato, cosa è stato realmente esercitato, quali difficoltà sono emerse e da quale punto deve continuare**, senza richiedere le dispense originali.
