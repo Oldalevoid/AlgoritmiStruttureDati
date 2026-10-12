@@ -165,7 +165,7 @@ graph TD
   style A fill:#dbeafe,stroke:#2563eb,color:#172554,stroke-width:3px
 ```
 
-**STATO:** domanda proposta, **nessuna risposta ricevuta**. Non aggiungere la soluzione prima che lo studente tenti l'esercizio.
+**RISPOSTA DELLO STUDENTE:** `A B D B E B A C F`. **ESITO:** non corretta: la risposta descrive un percorso con ritorni e ripetizioni, non l'ordine di visita BFS. **CORREZIONE SPIEGATA:** BFS visita A, poi B e C (livello 1), poi D, E, F (livello 2), secondo l'ordine dei vicini da sinistra a destra. La sequenza è `A B C D E F`. **STATO:** primo tentativo corretto dall'AI; verificare la comprensione della coda FIFO con nuova domanda, non classificare BFS come acquisita.
 
 ---
 
