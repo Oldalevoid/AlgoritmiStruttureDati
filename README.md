@@ -267,11 +267,13 @@ Il push dell'esercizio e l'aggiornamento del README fanno parte della stessa fas
 
 ## Punto attuale del percorso
 
-**Ultimo esercizio completato: `04_ordinamenti/esercizio_04.md`**
+**Ultimo esercizio completato nella sequenza ordinamenti: `04_ordinamenti/esercizio_04.md`**
+
+**Ultima sessione effettiva: `07_grafi/esercizi_guidati.md` (domande 1–12; domanda 13 BFS aperta).**
 
 Argomento corrente:
 
-**04 — Ordinamenti**
+**07 — Grafi (salto richiesto dallo studente; la verifica mista sugli ordinamenti resta in sospeso).**
 
 Stato dei moduli precedenti:
 
@@ -401,11 +403,21 @@ Punti emersi da ricordare:
 
 Prossimo esercizio da proporre:
 
-**04_ordinamenti/esercizio_05.md — Verifica mista su Bubble Sort, Selection Sort e Insertion Sort.**
+**07_grafi/esercizi_guidati.md — Domanda 13: visita BFS manuale da A (ordine dei vertici).**
+
+**Da riprendere successivamente:** `04_ordinamenti/esercizio_05.md` (verifica mista degli ordinamenti, ancora non svolta).
 
 Cartella corrente:
 
-`04_ordinamenti/`
+`07_grafi/`
+
+## Aggiornamento — 12 ottobre 2026: grafi
+
+Il percorso è passato ai grafi su richiesta dello studente, senza completare preliminarmente il modulo ordinamenti. Tutta la nuova lezione è archiviata in [07_grafi/README.md](07_grafi/README.md), con [teoria](07_grafi/teoria_grafi.md), [esercizi e risposte](07_grafi/esercizi_guidati.md) e [codice Python di esempio](07_grafi/esempi_grafi.py).
+
+**Acquisito con risposte corrette:** vertici e archi, gradi, orientamento, cammini, cicli/DAG, confronto tra pesi, accesso a lista/matrice, definizione di grafo sparso e scelta di lista di adiacenza per risparmiare memoria. Inizialmente è stata scelta erroneamente la matrice; dopo la spiegazione lo studente ha risposto correttamente a due casi analoghi.
+
+**Non ancora verificato:** esecuzione manuale BFS, coda FIFO e implementazioni di visita. Non registrare questi contenuti come completati.
 
 ## Autosufficienza della repository
 
