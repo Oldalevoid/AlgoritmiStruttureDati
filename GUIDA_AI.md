@@ -165,6 +165,10 @@ Se l'utente chiede di continuare un argomento presente in `PROGRAMMA_CORSO.md`, 
 
 Una fonte esterna è necessaria solo se l'utente chiede di verificare una formulazione letterale, una figura/tabella specifica o nuovo materiale non ancora incluso nel curriculum.
 
+## Formato obbligatorio dei push
+
+Applicare lo **Standard obbligatorio dei file e dei push didattici** descritto nel README principale. In particolare: diagrammi Mermaid incorporati sia nella teoria sia negli esercizi guidati ogni volta che una struttura è visuale; consegna completa, dati, risposta autentica dello studente, valutazione, correzione e stato aperto/completato; codice Python separato; update contestuale del README dopo ogni push; verifica dei commit. Non sostituire un grafo con la sola descrizione testuale.
+
 ## Obiettivo finale
 
 Portare lo studente a saper:
