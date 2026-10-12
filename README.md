@@ -269,7 +269,7 @@ Il push dell'esercizio e l'aggiornamento del README fanno parte della stessa fas
 
 **Ultimo esercizio completato nella sequenza ordinamenti: `04_ordinamenti/esercizio_04.md`**
 
-**Ultima sessione effettiva: `07_grafi/esercizi_guidati.md` (domande 1–12; domanda 13 BFS aperta).**
+**Ultima sessione effettiva: `07_grafi/esercizi_guidati.md` (domande 1–12 e domanda 14 sull'albero completate; domanda 13 BFS ancora aperta).**
 
 Argomento corrente:
 
@@ -415,7 +415,7 @@ Cartella corrente:
 
 Il percorso è passato ai grafi su richiesta dello studente, senza completare preliminarmente il modulo ordinamenti. Tutta la nuova lezione è archiviata in [07_grafi/README.md](07_grafi/README.md), con [teoria](07_grafi/teoria_grafi.md), [esercizi e risposte](07_grafi/esercizi_guidati.md) e [codice Python di esempio](07_grafi/esempi_grafi.py).
 
-**Acquisito con risposte corrette:** vertici e archi, gradi, orientamento, cammini, cicli/DAG, confronto tra pesi, accesso a lista/matrice, definizione di grafo sparso e scelta di lista di adiacenza per risparmiare memoria. Inizialmente è stata scelta erroneamente la matrice; dopo la spiegazione lo studente ha risposto correttamente a due casi analoghi.
+**Acquisito con risposte corrette:** vertici e archi, gradi, orientamento, cammini, cicli/DAG, confronto tra pesi, accesso a lista/matrice, definizione di grafo sparso e scelta di lista di adiacenza per risparmiare memoria. Verificato anche che aggiungere un arco tra E e F nell'albero crea un ciclo; precisata la motivazione (cammino preesistente, non genitori differenti). Inizialmente è stata scelta erroneamente la matrice; dopo la spiegazione lo studente ha risposto correttamente a due casi analoghi.
 
 **Non ancora verificato:** esecuzione manuale BFS, coda FIFO e implementazioni di visita. Non registrare questi contenuti come completati.
 
